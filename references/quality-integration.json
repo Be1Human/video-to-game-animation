@@ -1,0 +1,11 @@
+{
+  "merged_from": "user-provided animation-quality-review",
+  "integrated_into": "video-to-game-animation",
+  "date": "2026-10-16",
+  "original_files_sha256": {
+    "SKILL.md": "6041fcff7084ee4ffb1cf2930697fc16b78878fae1e259fec25aa809863dc2af",
+    "references/metrics.md": "e33a35be4e09cf9d0ca41c6c1ee7de2a919aecb8630ae8816035d5f33194eaa1",
+    "references/locomotion-framework.md": "ecdc7d76ebb73a0b018ff61ff801ada73802658e38d65f021b22b655d95f89eb"
+  },
+  "implementation": "Existing validated analyze_motion.py retained; complete review and mathematical references added. No character or source-video assets included."
+}

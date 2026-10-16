@@ -2,6 +2,8 @@
 
 **从视频参考到可审阅的游戏角色动画。** 一套 Codex skill，沉淀了单目姿态估计、动作拆分、重定向、相位协调、数学诊断、蒙皮修复和 Blender 验证的实际迭代经验。
 
+本仓库已将 `video-to-game-animation` 与 `animation-quality-review` 合并为一个可安装技能：既支持完整制作，也支持对现有动画直接评审。质量评估入口见 [quality-review.md](references/quality-review.md)，完整数学边界见 [metrics.md](references/metrics.md) 和 [locomotion-framework.md](references/locomotion-framework.md)。
+
 它会指导代理完成工作，并提供可运行的小工具；不是一个对任意模型都能一键动捕、绑定和修成自然动作的黑盒程序。
 
 ```mermaid

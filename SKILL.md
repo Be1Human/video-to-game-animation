@@ -5,7 +5,7 @@ description: 将角色视频参考转为 Blender 中可审阅的游戏骨骼动�
 
 # 视频到游戏角色动画
 
-将视频观察、骨骼运动、蒙皮形变和游戏动作契约串成可复验流程。交付实际动作文件、同速证据和限定范围的结论，不以数学方案或指标下降替代自然度验收。
+本技能合并视频到游戏动作制作与 animation-quality-review 的质量评估框架；已有动画可直接进入评审，无需重新动捕。将视频观察、骨骼运动、蒙皮形变和游戏动作契约串成可复验流程。交付实际动作文件、同速证据和限定范围的结论，不以数学方案或指标下降替代自然度验收。
 
 ## 先确定本次工作
 
@@ -19,6 +19,8 @@ description: 将角色视频参考转为 Blender 中可审阅的游戏骨骼动�
 
 | 任务 | 参考 | 结果 |
 | --- | --- | --- |
+| 仅评审已有动画、制定可审计的质量结论 | [quality-review.md](references/quality-review.md) | 连续性、协同、接触、循环、证据分级 |
+| 计算指标或比较偏走 / 转向 / 同骨架参考 | [metrics.md](references/metrics.md) · [locomotion-framework.md](references/locomotion-framework.md) | 量纲、旋转差分、接触坐标与控制变量 |
 | 捕捉、拆单元、骨架适配 | [capture-retarget.md](references/capture-retarget.md) | 连续观测片段、动作目录、重定向契约 |
 | 手乱、摇晃、机械启停、走跑转向 | [motion-math.md](references/motion-math.md) | SO(3)、相位、接触、融合与循环方法 |
 | 腿拉裙、摆臂带背、肩袖或附件变形 | [skinning.md](references/skinning.md) | 蒙皮隔离、连通区域与多姿势拟合 |

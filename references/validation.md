@@ -20,3 +20,7 @@ python scripts/analyze_motion.py demo-output/smooth-sliding.json --output demo-o
 ```
 
 本地实测输入不随仓库分发；此处是发布记录，不承诺克隆后无需自行提供输入即可复现私人角色实验。纯数学测试与合成反例可完全复现。视频精度、所有 Blender 版本、任意骨架、最终衣物碰撞、水平足锁及游戏运行效果不在发布验收范围内。
+
+## 两技能整合复验（2026-10-16）
+
+整合用户提供的 animation-quality-review 完整评审、指标边界与步态融合参考；保留已验证的分析脚本实现。quick_validate 通过，19 项 unittest 重新通过，全部 Markdown 相对引用可达。补充项目内不可变视频归档、蒙皮算法对应、驱动烘焙与导出帧零点检查。来源哈希见 quality-integration.json。
