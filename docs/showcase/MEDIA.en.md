@@ -13,6 +13,9 @@ This directory supports the technical comparisons in the README. Its animations 
 | shoulder-refined-run-stop.gif / .mp4 | Actual complete clip after shoulder/sleeve refinement, in front/side/back views | Run_Stop, 0–1.6 s, including the terminal frame |
 | motion-diagnostics.png / back-contribution.png / skinning-optimization.png | Plots from actual measurements and optimization logs in data/ | Rebuildable with the provided script |
 | phase-method.png | Synthetic mathematical illustration of quintic blending and phase cancellation | Labeled METHOD ILLUSTRATION in the image; not a character experiment |
+| running-contact-before-after.gif / .mp4; running-contact.png | Sprint contact revision with unchanged skinning; fixed floor and following camera; chart from data/running-contact.json | Two native 2/3-second cycles, 40 frames; designed 4.4 m/s root speed, not a recovered source-video trajectory |
+
+The latest running revision changes lower-limb contact in Jog / Sprint, preserving upper-body curves, shoulder/sleeve skinning, and the other 11 actions. A designed root speed makes the in-place curves comparable. Fixed contact windows and near-floor windows are reported separately at 120 Hz. Runtime foot plants are tested separately on flat ground at 60 / 30 fps. Statements below that horizontal foot locking remains unaccepted describe the earlier media, not this limited running revision. Slopes, sharp turns, and final whole-body naturalness still require acceptance.
 
 ## Sources and licensing
 

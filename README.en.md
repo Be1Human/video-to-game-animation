@@ -14,6 +14,22 @@ This README, its overview diagrams, and the [media provenance notes](docs/showca
 
 ## Results and process
 
+### Latest revision: match running foot contact to actual displacement
+
+![Running contact before and after: before on the left, after on the right, with identical rig, skinning, and ground speed](docs/showcase/running-contact-before-after.gif)
+
+**Left: before. Right: after. Same rig, shoulder/sleeve skinning, and designed root speed of 4.4 m/s.** The checker floor stays fixed while the character advances and the camera follows. Two native-speed sprint cycles total 40 frames at 30 fps. Root speed is a designed input to this contact experiment, not a recovered world trajectory from the source video.
+
+The revision constrains stance-foot trajectories and orientation and stabilizes the knee bend plane. In the game, actual displacement after collision advances gait phase, followed by world-space foot plants and lifted recovery steps. Entering idle no longer snaps a fading contact back to its old anchor. Upper-body animation curves and skinning weights are preserved.
+
+![Measured Blender stance-foot horizontal path length for sprint and jog](docs/showcase/running-contact.png)
+
+Sprint horizontal path length per support interval falls from **303 / 389 mm to 6.25 / 6.64 mm**. These are actual 120 Hz evaluations over fixed phase intervals, with no velocity-based sample rejection. Separate Godot flat-ground checks at 60 and 30 fps each evaluate 1,880 samples, covering starts/stops, eight release timings, gait changes, and collision. Maximum fully planted drift is **0.300 / 0.258 mm**, respectively. Baked-motion and runtime-foot-lock measurements are separate experiments. Slopes, sharp turns, and final naturalness remain outside acceptance.
+
+[Original-speed comparison MP4](docs/showcase/running-contact-before-after.mp4) · [Measurements and contact definition](docs/showcase/data/running-contact.json) · [Plot source](scripts/plot_running_contact.py) · [Media sources and scope](docs/showcase/MEDIA.en.md)
+
+### Earlier walking-coordination revision
+
 These are actual intermediate results from one character project. **Left: captured motion with earlier cleanup. Right: a revision coordinated with reference animation.** This is not a comparison between untouched video keypoints and a finished character. Each side shows front and side views. Both walk cycles last **1.167 seconds**, repeated three times at their original speed.
 
 ![Before and after walking: identical cycle length and original playback speed](docs/showcase/walk-before-after.gif)

@@ -13,6 +13,9 @@
 | shoulder-refined-run-stop.gif / .mp4 | 后续肩袖修订的实际全动作，正/侧/背 | Run_Stop，0–1.6 s，包含终止帧 |
 | motion-diagnostics.png / back-contribution.png / skinning-optimization.png | 从本目录 data/ 的实际测量和优化日志绘制 | 脚本可重建 |
 | phase-method.png | 五次混合与相位抵消的合成数学示意 | 图内标注 METHOD ILLUSTRATION，不能充当角色实验 |
+| running-contact-before-after.gif / .mp4；running-contact.png | 同蒙皮的冲刺接触修前修后；固定地面、相机跟随；图表来自 data/running-contact.json | 两次 2/3 秒原速循环，40 帧；设计根速度 4.4 m/s，未声称恢复原片根轨迹 |
+
+最新跑步接触修订只改 Jog / Sprint 动作下肢接触，上半身曲线与肩袖蒙皮保持，其他 11 动作曲线保持。原地曲线加设计根速度形成可比较实验；120 Hz 固定接触窗口与低高度窗口分别报告。游戏足锁另做 60 / 30 fps 平地验证。下文“水平足锁待验收”描述此前历史媒体，不覆盖这次限定范围的修订；坡面、急转和最终全身自然度仍待验收。
 
 ## 来源和许可
 

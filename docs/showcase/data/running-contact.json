@@ -1,0 +1,125 @@
+{
+  "task": "CH-CONTACT-15",
+  "sampling_hz": 120,
+  "contact_definition": "Fixed phase intervals, no velocity-based exclusion; same rig and skin. Designed constant root speed, not recovered video root.",
+  "records": [
+    {
+      "clip": "Sprint_Forward_Loop",
+      "side": "L",
+      "designed_speed_mps": 4.4,
+      "period_s": 0.6666666666666666,
+      "before": {
+        "stance_path_m": 0.30337690297686204,
+        "stance_max_displacement_m": 0.0897499232239212,
+        "stance_z_min_m": 0.0011741147609427571,
+        "sole_z_min_m": 0.0011741147609427571,
+        "sole_z_max_m": 0.16107073426246643,
+        "near_floor_speed_rms_mps": 2.3078079286844253,
+        "near_floor_interval_count": 17
+      },
+      "after": {
+        "stance_path_m": 0.00625094747482845,
+        "stance_max_displacement_m": 0.0006716559981898832,
+        "stance_z_min_m": 0.0009060706943273544,
+        "sole_z_min_m": 0.0009060706943273544,
+        "sole_z_max_m": 0.1610710322856903,
+        "near_floor_speed_rms_mps": 0.07907697668530456,
+        "near_floor_interval_count": 22
+      }
+    },
+    {
+      "clip": "Sprint_Forward_Loop",
+      "side": "R",
+      "designed_speed_mps": 4.4,
+      "period_s": 0.6666666666666666,
+      "before": {
+        "stance_path_m": 0.38918776276766326,
+        "stance_max_displacement_m": 0.19914498512486134,
+        "stance_z_min_m": -0.005612292792648077,
+        "sole_z_min_m": -0.005612292792648077,
+        "sole_z_max_m": 0.13262002170085907,
+        "near_floor_speed_rms_mps": 2.5885729601654655,
+        "near_floor_interval_count": 20
+      },
+      "after": {
+        "stance_path_m": 0.0066422489232314036,
+        "stance_max_displacement_m": 0.0009101499971957235,
+        "stance_z_min_m": 0.00035095028579235077,
+        "sole_z_min_m": 0.00035095028579235077,
+        "sole_z_max_m": 0.13262030482292175,
+        "near_floor_speed_rms_mps": 0.07832892792108817,
+        "near_floor_interval_count": 21
+      }
+    },
+    {
+      "clip": "Jog_Forward_Loop",
+      "side": "L",
+      "designed_speed_mps": 4.0,
+      "period_s": 0.8,
+      "before": {
+        "stance_path_m": 0.1849138299955341,
+        "stance_max_displacement_m": 0.18192037356950985,
+        "stance_z_min_m": 0.001466663321480155,
+        "sole_z_min_m": 0.00010370604286435992,
+        "sole_z_max_m": 0.1635987013578415,
+        "near_floor_speed_rms_mps": 1.250710474255763,
+        "near_floor_interval_count": 20
+      },
+      "after": {
+        "stance_path_m": 0.006380185335622944,
+        "stance_max_displacement_m": 0.0004868480122260102,
+        "stance_z_min_m": 0.001979377120733261,
+        "sole_z_min_m": 0.001629203325137496,
+        "sole_z_max_m": 0.1635989546775818,
+        "near_floor_speed_rms_mps": 0.13076510446885187,
+        "near_floor_interval_count": 24
+      }
+    },
+    {
+      "clip": "Jog_Forward_Loop",
+      "side": "R",
+      "designed_speed_mps": 4.0,
+      "period_s": 0.8,
+      "before": {
+        "stance_path_m": 0.17926424505275051,
+        "stance_max_displacement_m": 0.17198427574773575,
+        "stance_z_min_m": 0.001702799927443266,
+        "sole_z_min_m": 0.0004418366588652134,
+        "sole_z_max_m": 0.16914495825767517,
+        "near_floor_speed_rms_mps": 1.2294130079890002,
+        "near_floor_interval_count": 22
+      },
+      "after": {
+        "stance_path_m": 0.006050956842314015,
+        "stance_max_displacement_m": 0.0004938868125806002,
+        "stance_z_min_m": 0.002154488116502762,
+        "sole_z_min_m": 0.0015338619705289602,
+        "sole_z_max_m": 0.16914503276348114,
+        "near_floor_speed_rms_mps": 0.12544009655380048,
+        "near_floor_interval_count": 24
+      }
+    }
+  ],
+  "runtime": {
+    "engine": "Godot 4.7.2",
+    "walk_speed_mps": 1.45,
+    "run_speed_mps": 4.8,
+    "metrics": {
+      "episodes": 90,
+      "frames": 1880,
+      "max_ik_error_m": 0.000309719383949414,
+      "max_planted_drift_m": 0.000299934326903895,
+      "max_skin_error_m": 7.67629626352573e-06,
+      "min_sole_y_m": 0.00199975073337555
+    },
+    "metrics_at_30fps": {
+      "episodes": 142,
+      "frames": 1880,
+      "max_ik_error_m": 0.000274442892987281,
+      "max_planted_drift_m": 0.000258225714787841,
+      "max_skin_error_m": 7.729222488706e-06,
+      "min_sole_y_m": 0.00199994444847107
+    },
+    "scope": "Flat ground, actual movement and collision. World plants include transitions; uneven ground and sharp turns not accepted."
+  }
+}
