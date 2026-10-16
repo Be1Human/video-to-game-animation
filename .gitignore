@@ -8,6 +8,7 @@ demo-output/
 *.fbx
 *.glb
 *.mp4
+!docs/showcase/*.mp4
 *.task
 *.npz
 .env

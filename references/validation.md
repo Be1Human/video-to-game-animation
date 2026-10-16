@@ -24,3 +24,9 @@ python scripts/analyze_motion.py demo-output/smooth-sliding.json --output demo-o
 ## 两技能整合复验（2026-10-16）
 
 整合用户提供的 animation-quality-review 完整评审、指标边界与步态融合参考；保留已验证的分析脚本实现。quick_validate 通过，19 项 unittest 重新通过，全部 Markdown 相对引用可达。补充项目内不可变视频归档、蒙皮算法对应、驱动烘焙与导出帧零点检查。来源哈希见 quality-integration.json。
+
+## README 实际案例展示（2026-10-16）
+
+新增 4 组实际动画 GIF/MP4、同姿势图片、4 张数学图和 8 份短窗口测量快照。原始估计以骨线重绘；动作重建与仅修改蒙皮分开比较。帧数、时长、文件哈希见 [媒体清单](../docs/showcase/media-manifest.json)，来源和版本见 [MEDIA.md](../docs/showcase/MEDIA.md)。这些是阶段性制作证据，不替代自然度验收。
+
+`python scripts/plot_showcase.py` 从公开的 Blender 轨迹重算头部 jerk RMS 和左手角加速度 P95，并与记录值核对，再生成四张图；CI 同步执行。完整私人角色工程仍不分发，无法仅靠本仓库重渲染原角色。四张图可独立重建，其中相位图明确为合成方法示意。

@@ -1,0 +1,249 @@
+{
+  "definition": {
+    "edge_sampling": "all edges incident to each rest-space region; rest length >1mm; same region IDs across versions",
+    "poses": "all authored frames at 60fps; Run_Stop arm isolation each frame; independent torso-fixed shoulder stress",
+    "acceptance": "regional no-regression comparison and actual multiview renders; numerical validity is not aesthetic acceptance"
+  },
+  "variants": {
+    "original": {
+      "action": "Run_Stop",
+      "samples": 97,
+      "duration_s": 1.6,
+      "regions": {
+        "upper_shirt": {
+          "max": 15.605063174771082,
+          "max_frame": 1,
+          "worst_edge": [
+            4160,
+            16124
+          ],
+          "min": 0.08019702291702277,
+          "min_frame": 13,
+          "max_p95": 1.3484513142136512,
+          "min_p05": 0.7224036962269421
+        },
+        "central_back": {
+          "max": 1.8283931757606309,
+          "max_frame": 17,
+          "worst_edge": [
+            12546,
+            12550
+          ],
+          "min": 0.8829220309802998,
+          "min_frame": 1,
+          "max_p95": 1.5082517309550894,
+          "min_p05": 0.9275416490717727
+        },
+        "front_chest": {
+          "max": 15.605063174771082,
+          "max_frame": 1,
+          "worst_edge": [
+            4160,
+            16124
+          ],
+          "min": 0.10926062354354003,
+          "min_frame": 37,
+          "max_p95": 1.2923912873153414,
+          "min_p05": 0.6620929350153139
+        },
+        "shoulder_cap": {
+          "max": 1.7813894564044601,
+          "max_frame": 23,
+          "worst_edge": [
+            1023,
+            1024
+          ],
+          "min": 0.391740658898436,
+          "min_frame": 1,
+          "max_p95": 1.2454089543464848,
+          "min_p05": 0.7726923217128026
+        },
+        "armhole": {
+          "max": 4.041349916394614,
+          "max_frame": 1,
+          "worst_edge": [
+            4171,
+            4178
+          ],
+          "min": 0.10926062354354003,
+          "min_frame": 37,
+          "max_p95": 1.4694253035671279,
+          "min_p05": 0.7389363468840842
+        },
+        "upper_sleeve": {
+          "max": 2.473371807333892,
+          "max_frame": 1,
+          "worst_edge": [
+            12203,
+            12204
+          ],
+          "min": 0.08019702291702277,
+          "min_frame": 13,
+          "max_p95": 1.4093430093635777,
+          "min_p05": 0.7522113440440031
+        }
+      },
+      "central_back_arm_pull_m": 0.023785022406487867
+    },
+    "previous": {
+      "action": "Run_Stop",
+      "samples": 97,
+      "duration_s": 1.6,
+      "regions": {
+        "upper_shirt": {
+          "max": 15.605063174771082,
+          "max_frame": 1,
+          "worst_edge": [
+            4160,
+            16124
+          ],
+          "min": 0.08019702291702277,
+          "min_frame": 13,
+          "max_p95": 1.3490378755464159,
+          "min_p05": 0.7224036962269421
+        },
+        "central_back": {
+          "max": 2.1738830124461086,
+          "max_frame": 1,
+          "worst_edge": [
+            12319,
+            12320
+          ],
+          "min": 0.8599798203511478,
+          "min_frame": 97,
+          "max_p95": 1.3455059378233947,
+          "min_p05": 0.9709889697461329
+        },
+        "front_chest": {
+          "max": 15.605063174771082,
+          "max_frame": 1,
+          "worst_edge": [
+            4160,
+            16124
+          ],
+          "min": 0.10926062354354003,
+          "min_frame": 37,
+          "max_p95": 1.3062378997087303,
+          "min_p05": 0.6620929350153139
+        },
+        "shoulder_cap": {
+          "max": 1.7813894564044601,
+          "max_frame": 23,
+          "worst_edge": [
+            1023,
+            1024
+          ],
+          "min": 0.391740658898436,
+          "min_frame": 1,
+          "max_p95": 1.2696022537212979,
+          "min_p05": 0.815936599610774
+        },
+        "armhole": {
+          "max": 4.041349916394614,
+          "max_frame": 1,
+          "worst_edge": [
+            4171,
+            4178
+          ],
+          "min": 0.10926062354354003,
+          "min_frame": 37,
+          "max_p95": 1.4437788631496447,
+          "min_p05": 0.7392723257667152
+        },
+        "upper_sleeve": {
+          "max": 2.396343250804012,
+          "max_frame": 1,
+          "worst_edge": [
+            12202,
+            12203
+          ],
+          "min": 0.08019702291702277,
+          "min_frame": 13,
+          "max_p95": 1.4408654406984287,
+          "min_p05": 0.7554193432967371
+        }
+      },
+      "central_back_arm_pull_m": 0.0055003604004074886
+    },
+    "current": {
+      "action": "Run_Stop",
+      "samples": 97,
+      "duration_s": 1.6,
+      "regions": {
+        "upper_shirt": {
+          "max": 1.7953461843599936,
+          "max_frame": 1,
+          "worst_edge": [
+            4174,
+            4176
+          ],
+          "min": 0.09373941799178499,
+          "min_frame": 11,
+          "max_p95": 1.335138587483292,
+          "min_p05": 0.7400019566480328
+        },
+        "central_back": {
+          "max": 1.7548893997402868,
+          "max_frame": 1,
+          "worst_edge": [
+            12319,
+            12320
+          ],
+          "min": 0.87496508401703,
+          "min_frame": 87,
+          "max_p95": 1.3244243726582818,
+          "min_p05": 0.9709889697461329
+        },
+        "front_chest": {
+          "max": 1.7953461843599936,
+          "max_frame": 1,
+          "worst_edge": [
+            4174,
+            4176
+          ],
+          "min": 0.09373941799178499,
+          "min_frame": 11,
+          "max_p95": 1.2750662385153306,
+          "min_p05": 0.6813445409114697
+        },
+        "shoulder_cap": {
+          "max": 1.5074379470944415,
+          "max_frame": 1,
+          "worst_edge": [
+            18505,
+            18508
+          ],
+          "min": 0.6098207316782979,
+          "min_frame": 1,
+          "max_p95": 1.2587756068764655,
+          "min_p05": 0.8156054985704061
+        },
+        "armhole": {
+          "max": 1.7953461843599936,
+          "max_frame": 1,
+          "worst_edge": [
+            4174,
+            4176
+          ],
+          "min": 0.09373941799178499,
+          "min_frame": 11,
+          "max_p95": 1.4241932487445608,
+          "min_p05": 0.744592193860974
+        },
+        "upper_sleeve": {
+          "max": 1.7257379085805387,
+          "max_frame": 1,
+          "worst_edge": [
+            12069,
+            12073
+          ],
+          "min": 0.39399647781462743,
+          "min_frame": 49,
+          "max_p95": 1.4421993971375282,
+          "min_p05": 0.7889538549712308
+        }
+      },
+      "central_back_arm_pull_m": 0.0055003604004074886
+    }
+  }
+}

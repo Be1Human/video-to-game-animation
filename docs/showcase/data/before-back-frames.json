@@ -1,0 +1,1932 @@
+[
+  {
+    "frame": 1.0,
+    "time_s": 0.0,
+    "core_back_edge_stretch_max": 1.765396012233727,
+    "core_back_edge_stretch_p95": 1.4700245364498399,
+    "back_edge_stretch_max": 1.972322219579672,
+    "back_edge_stretch_p95": 1.5977704608714434,
+    "arm_shoulder_pull_core_max_m": 0.023785022406487867,
+    "arm_shoulder_pull_core_p95_m": 0.01655669416006617
+  },
+  {
+    "frame": 1.5,
+    "time_s": 0.008333333333333333,
+    "core_back_edge_stretch_max": 1.7469031757446933,
+    "core_back_edge_stretch_p95": 1.4646759177356918,
+    "back_edge_stretch_max": 1.9568667474216894,
+    "back_edge_stretch_p95": 1.5857890618069468,
+    "arm_shoulder_pull_core_max_m": 0.02358802933629853,
+    "arm_shoulder_pull_core_p95_m": 0.016423477932253457
+  },
+  {
+    "frame": 2.0,
+    "time_s": 0.016666666666666666,
+    "core_back_edge_stretch_max": 1.7285020256094832,
+    "core_back_edge_stretch_p95": 1.4593568692587593,
+    "back_edge_stretch_max": 1.9416181504623493,
+    "back_edge_stretch_p95": 1.576197988559092,
+    "arm_shoulder_pull_core_max_m": 0.023392539344091523,
+    "arm_shoulder_pull_core_p95_m": 0.01629126711213002
+  },
+  {
+    "frame": 2.5,
+    "time_s": 0.025,
+    "core_back_edge_stretch_max": 1.7032044862688087,
+    "core_back_edge_stretch_p95": 1.4497377481356912,
+    "back_edge_stretch_max": 1.9201129218806492,
+    "back_edge_stretch_p95": 1.552880704266525,
+    "arm_shoulder_pull_core_max_m": 0.023002289749674137,
+    "arm_shoulder_pull_core_p95_m": 0.016031347784252754
+  },
+  {
+    "frame": 3.0,
+    "time_s": 0.03333333333333333,
+    "core_back_edge_stretch_max": 1.6781468866413685,
+    "core_back_edge_stretch_p95": 1.4370375001404552,
+    "back_edge_stretch_max": 1.8991664834229884,
+    "back_edge_stretch_p95": 1.5369516557952791,
+    "arm_shoulder_pull_core_max_m": 0.022615407434759392,
+    "arm_shoulder_pull_core_p95_m": 0.01577394757779813
+  },
+  {
+    "frame": 3.5,
+    "time_s": 0.041666666666666664,
+    "core_back_edge_stretch_max": 1.6485306860348343,
+    "core_back_edge_stretch_p95": 1.4174211147058118,
+    "back_edge_stretch_max": 1.8725446676293775,
+    "back_edge_stretch_p95": 1.5181927156855828,
+    "arm_shoulder_pull_core_max_m": 0.02207512934025274,
+    "arm_shoulder_pull_core_p95_m": 0.015418937687286048
+  },
+  {
+    "frame": 4.0,
+    "time_s": 0.05,
+    "core_back_edge_stretch_max": 1.6193790153248426,
+    "core_back_edge_stretch_p95": 1.398369015477675,
+    "back_edge_stretch_max": 1.8465702272871505,
+    "back_edge_stretch_p95": 1.4918381592387269,
+    "arm_shoulder_pull_core_max_m": 0.021540741457307534,
+    "arm_shoulder_pull_core_p95_m": 0.015068331525894329
+  },
+  {
+    "frame": 4.5,
+    "time_s": 0.058333333333333334,
+    "core_back_edge_stretch_max": 1.5952451582344425,
+    "core_back_edge_stretch_p95": 1.3758058161425213,
+    "back_edge_stretch_max": 1.8161802584055267,
+    "back_edge_stretch_p95": 1.4695399823532904,
+    "arm_shoulder_pull_core_max_m": 0.020918465806673937,
+    "arm_shoulder_pull_core_p95_m": 0.014665516596993682
+  },
+  {
+    "frame": 5.0,
+    "time_s": 0.06666666666666667,
+    "core_back_edge_stretch_max": 1.5722205549994976,
+    "core_back_edge_stretch_p95": 1.353481555089279,
+    "back_edge_stretch_max": 1.7869118875863734,
+    "back_edge_stretch_p95": 1.444072747224963,
+    "arm_shoulder_pull_core_max_m": 0.020306131345174,
+    "arm_shoulder_pull_core_p95_m": 0.014269469819012344
+  },
+  {
+    "frame": 5.5,
+    "time_s": 0.075,
+    "core_back_edge_stretch_max": 1.553108648629139,
+    "core_back_edge_stretch_p95": 1.328365865707283,
+    "back_edge_stretch_max": 1.755202707535225,
+    "back_edge_stretch_p95": 1.423801456236193,
+    "arm_shoulder_pull_core_max_m": 0.01968101083898926,
+    "arm_shoulder_pull_core_p95_m": 0.013872413110999364
+  },
+  {
+    "frame": 6.0,
+    "time_s": 0.08333333333333333,
+    "core_back_edge_stretch_max": 1.5351889783661667,
+    "core_back_edge_stretch_p95": 1.3032725172680097,
+    "back_edge_stretch_max": 1.7253338921525077,
+    "back_edge_stretch_p95": 1.4036285959792987,
+    "arm_shoulder_pull_core_max_m": 0.019070463544165177,
+    "arm_shoulder_pull_core_p95_m": 0.013497889718493788
+  },
+  {
+    "frame": 6.5,
+    "time_s": 0.09166666666666666,
+    "core_back_edge_stretch_max": 1.5243909286208597,
+    "core_back_edge_stretch_p95": 1.2783976142753184,
+    "back_edge_stretch_max": 1.6952297881199345,
+    "back_edge_stretch_p95": 1.3894603889821482,
+    "arm_shoulder_pull_core_max_m": 0.018512627175548652,
+    "arm_shoulder_pull_core_p95_m": 0.013172971682918977
+  },
+  {
+    "frame": 7.0,
+    "time_s": 0.1,
+    "core_back_edge_stretch_max": 1.5150605916032707,
+    "core_back_edge_stretch_p95": 1.2715073500145009,
+    "back_edge_stretch_max": 1.6674539424859707,
+    "back_edge_stretch_p95": 1.3708171507787803,
+    "arm_shoulder_pull_core_max_m": 0.017973450612129564,
+    "arm_shoulder_pull_core_p95_m": 0.012860204820862142
+  },
+  {
+    "frame": 7.5,
+    "time_s": 0.10833333333333334,
+    "core_back_edge_stretch_max": 1.514773843864946,
+    "core_back_edge_stretch_p95": 1.2588362354816014,
+    "back_edge_stretch_max": 1.6420363709352583,
+    "back_edge_stretch_p95": 1.3531217344191544,
+    "arm_shoulder_pull_core_max_m": 0.017525952005377085,
+    "arm_shoulder_pull_core_p95_m": 0.01256653041314433
+  },
+  {
+    "frame": 8.0,
+    "time_s": 0.11666666666666667,
+    "core_back_edge_stretch_max": 1.5160880722184353,
+    "core_back_edge_stretch_p95": 1.254578646320678,
+    "back_edge_stretch_max": 1.6193440241624892,
+    "back_edge_stretch_p95": 1.349106915721148,
+    "arm_shoulder_pull_core_max_m": 0.017099784188177265,
+    "arm_shoulder_pull_core_p95_m": 0.012377622799563687
+  },
+  {
+    "frame": 8.5,
+    "time_s": 0.125,
+    "core_back_edge_stretch_max": 1.526512781485724,
+    "core_back_edge_stretch_p95": 1.268437333859735,
+    "back_edge_stretch_max": 1.6008308411972074,
+    "back_edge_stretch_p95": 1.3449805356689766,
+    "arm_shoulder_pull_core_max_m": 0.016775662119240302,
+    "arm_shoulder_pull_core_p95_m": 0.01236171075246439
+  },
+  {
+    "frame": 9.0,
+    "time_s": 0.13333333333333333,
+    "core_back_edge_stretch_max": 1.5385092499043924,
+    "core_back_edge_stretch_p95": 1.2687689215368907,
+    "back_edge_stretch_max": 1.585258906488527,
+    "back_edge_stretch_p95": 1.3378715308909381,
+    "arm_shoulder_pull_core_max_m": 0.01659656929050023,
+    "arm_shoulder_pull_core_p95_m": 0.01211118112965955
+  },
+  {
+    "frame": 9.5,
+    "time_s": 0.14166666666666666,
+    "core_back_edge_stretch_max": 1.5578762395753654,
+    "core_back_edge_stretch_p95": 1.2734242510234604,
+    "back_edge_stretch_max": 1.5750017189128662,
+    "back_edge_stretch_p95": 1.3372850978714865,
+    "arm_shoulder_pull_core_max_m": 0.016491135379715468,
+    "arm_shoulder_pull_core_p95_m": 0.012237574412071905
+  },
+  {
+    "frame": 10.0,
+    "time_s": 0.15,
+    "core_back_edge_stretch_max": 1.5807128780558812,
+    "core_back_edge_stretch_p95": 1.2844437991101163,
+    "back_edge_stretch_max": 1.5807128780558812,
+    "back_edge_stretch_p95": 1.334450187910422,
+    "arm_shoulder_pull_core_max_m": 0.01640512116695728,
+    "arm_shoulder_pull_core_p95_m": 0.012121159732360649
+  },
+  {
+    "frame": 10.5,
+    "time_s": 0.15833333333333333,
+    "core_back_edge_stretch_max": 1.607783462370179,
+    "core_back_edge_stretch_p95": 1.298771735666094,
+    "back_edge_stretch_max": 1.607783462370179,
+    "back_edge_stretch_p95": 1.3475220841227549,
+    "arm_shoulder_pull_core_max_m": 0.01636534497927104,
+    "arm_shoulder_pull_core_p95_m": 0.012201456290714431
+  },
+  {
+    "frame": 11.0,
+    "time_s": 0.16666666666666666,
+    "core_back_edge_stretch_max": 1.6358406398091476,
+    "core_back_edge_stretch_p95": 1.316204099163475,
+    "back_edge_stretch_max": 1.6358406398091476,
+    "back_edge_stretch_p95": 1.362288131738259,
+    "arm_shoulder_pull_core_max_m": 0.01634002966269137,
+    "arm_shoulder_pull_core_p95_m": 0.012300554244027938
+  },
+  {
+    "frame": 11.5,
+    "time_s": 0.175,
+    "core_back_edge_stretch_max": 1.6635651356700754,
+    "core_back_edge_stretch_p95": 1.3294347133454754,
+    "back_edge_stretch_max": 1.6635651356700754,
+    "back_edge_stretch_p95": 1.3712148299578337,
+    "arm_shoulder_pull_core_max_m": 0.016339867738955908,
+    "arm_shoulder_pull_core_p95_m": 0.012401129268455555
+  },
+  {
+    "frame": 12.0,
+    "time_s": 0.18333333333333332,
+    "core_back_edge_stretch_max": 1.6919267946970864,
+    "core_back_edge_stretch_p95": 1.3428558957843624,
+    "back_edge_stretch_max": 1.6919267946970864,
+    "back_edge_stretch_p95": 1.3834697292990632,
+    "arm_shoulder_pull_core_max_m": 0.01634936836633339,
+    "arm_shoulder_pull_core_p95_m": 0.012522474148546514
+  },
+  {
+    "frame": 12.5,
+    "time_s": 0.19166666666666668,
+    "core_back_edge_stretch_max": 1.7169020981719183,
+    "core_back_edge_stretch_p95": 1.3546484580170097,
+    "back_edge_stretch_max": 1.7169020981719183,
+    "back_edge_stretch_p95": 1.395279200250532,
+    "arm_shoulder_pull_core_max_m": 0.0163719124403463,
+    "arm_shoulder_pull_core_p95_m": 0.0126300442303501
+  },
+  {
+    "frame": 13.0,
+    "time_s": 0.2,
+    "core_back_edge_stretch_max": 1.7423098464362785,
+    "core_back_edge_stretch_p95": 1.3665294179858058,
+    "back_edge_stretch_max": 1.7423098464362785,
+    "back_edge_stretch_p95": 1.4078267028711564,
+    "arm_shoulder_pull_core_max_m": 0.016400393030345718,
+    "arm_shoulder_pull_core_p95_m": 0.012897178948792675
+  },
+  {
+    "frame": 13.5,
+    "time_s": 0.20833333333333334,
+    "core_back_edge_stretch_max": 1.7621381997691752,
+    "core_back_edge_stretch_p95": 1.3766929747228127,
+    "back_edge_stretch_max": 1.7621381997691752,
+    "back_edge_stretch_p95": 1.4108900719890927,
+    "arm_shoulder_pull_core_max_m": 0.016434239026873108,
+    "arm_shoulder_pull_core_p95_m": 0.013268593294017481
+  },
+  {
+    "frame": 14.0,
+    "time_s": 0.21666666666666667,
+    "core_back_edge_stretch_max": 1.782250411418981,
+    "core_back_edge_stretch_p95": 1.3882171553489513,
+    "back_edge_stretch_max": 1.782250411418981,
+    "back_edge_stretch_p95": 1.419755114863489,
+    "arm_shoulder_pull_core_max_m": 0.016471265074407264,
+    "arm_shoulder_pull_core_p95_m": 0.01338701533799155
+  },
+  {
+    "frame": 14.5,
+    "time_s": 0.225,
+    "core_back_edge_stretch_max": 1.7957753670530066,
+    "core_back_edge_stretch_p95": 1.3956115888245308,
+    "back_edge_stretch_max": 1.7957753670530066,
+    "back_edge_stretch_p95": 1.435958139022516,
+    "arm_shoulder_pull_core_max_m": 0.016507400222336918,
+    "arm_shoulder_pull_core_p95_m": 0.013361253306974408
+  },
+  {
+    "frame": 15.0,
+    "time_s": 0.23333333333333334,
+    "core_back_edge_stretch_max": 1.809426843903582,
+    "core_back_edge_stretch_p95": 1.4031201522718297,
+    "back_edge_stretch_max": 1.809426843903582,
+    "back_edge_stretch_p95": 1.446952477259434,
+    "arm_shoulder_pull_core_max_m": 0.01654509170299543,
+    "arm_shoulder_pull_core_p95_m": 0.013345962457074227
+  },
+  {
+    "frame": 15.5,
+    "time_s": 0.24166666666666667,
+    "core_back_edge_stretch_max": 1.8167269024918002,
+    "core_back_edge_stretch_p95": 1.4072859306997882,
+    "back_edge_stretch_max": 1.8167269024918002,
+    "back_edge_stretch_p95": 1.459548014323524,
+    "arm_shoulder_pull_core_max_m": 0.016574287433788373,
+    "arm_shoulder_pull_core_p95_m": 0.013457943475393587
+  },
+  {
+    "frame": 16.0,
+    "time_s": 0.25,
+    "core_back_edge_stretch_max": 1.8240914235762848,
+    "core_back_edge_stretch_p95": 1.411513007651615,
+    "back_edge_stretch_max": 1.8240914235762848,
+    "back_edge_stretch_p95": 1.4678574366347505,
+    "arm_shoulder_pull_core_max_m": 0.016779128811456885,
+    "arm_shoulder_pull_core_p95_m": 0.013704061515113893
+  },
+  {
+    "frame": 16.5,
+    "time_s": 0.25833333333333336,
+    "core_back_edge_stretch_max": 1.8262338777098397,
+    "core_back_edge_stretch_p95": 1.413554814677804,
+    "back_edge_stretch_max": 1.8262338777098397,
+    "back_edge_stretch_p95": 1.4770406180772206,
+    "arm_shoulder_pull_core_max_m": 0.017149951163924686,
+    "arm_shoulder_pull_core_p95_m": 0.013952102039071284
+  },
+  {
+    "frame": 17.0,
+    "time_s": 0.26666666666666666,
+    "core_back_edge_stretch_max": 1.8283931757606309,
+    "core_back_edge_stretch_p95": 1.4156413951282871,
+    "back_edge_stretch_max": 1.8283931757606309,
+    "back_edge_stretch_p95": 1.4878382494231894,
+    "arm_shoulder_pull_core_max_m": 0.017539598582918633,
+    "arm_shoulder_pull_core_p95_m": 0.014201268001495513
+  },
+  {
+    "frame": 17.5,
+    "time_s": 0.275,
+    "core_back_edge_stretch_max": 1.8268909600819905,
+    "core_back_edge_stretch_p95": 1.4167952240277468,
+    "back_edge_stretch_max": 1.8268909600819905,
+    "back_edge_stretch_p95": 1.496014456826631,
+    "arm_shoulder_pull_core_max_m": 0.017934314587780407,
+    "arm_shoulder_pull_core_p95_m": 0.014458198627600113
+  },
+  {
+    "frame": 18.0,
+    "time_s": 0.2833333333333333,
+    "core_back_edge_stretch_max": 1.8254675437852221,
+    "core_back_edge_stretch_p95": 1.4180065892615852,
+    "back_edge_stretch_max": 1.8254675437852221,
+    "back_edge_stretch_p95": 1.5069828062172368,
+    "arm_shoulder_pull_core_max_m": 0.01832942990828869,
+    "arm_shoulder_pull_core_p95_m": 0.01472711850380946
+  },
+  {
+    "frame": 18.5,
+    "time_s": 0.2916666666666667,
+    "core_back_edge_stretch_max": 1.8219704416569067,
+    "core_back_edge_stretch_p95": 1.4192209201483046,
+    "back_edge_stretch_max": 1.8219704416569067,
+    "back_edge_stretch_p95": 1.5099591182343282,
+    "arm_shoulder_pull_core_max_m": 0.018718508492870427,
+    "arm_shoulder_pull_core_p95_m": 0.014994839227942536
+  },
+  {
+    "frame": 19.0,
+    "time_s": 0.3,
+    "core_back_edge_stretch_max": 1.818505602808053,
+    "core_back_edge_stretch_p95": 1.4240804920973562,
+    "back_edge_stretch_max": 1.818505602808053,
+    "back_edge_stretch_p95": 1.5155318993184654,
+    "arm_shoulder_pull_core_max_m": 0.019107671107983018,
+    "arm_shoulder_pull_core_p95_m": 0.015263146699760732
+  },
+  {
+    "frame": 19.5,
+    "time_s": 0.30833333333333335,
+    "core_back_edge_stretch_max": 1.8141141329646366,
+    "core_back_edge_stretch_p95": 1.428790770076271,
+    "back_edge_stretch_max": 1.8180640395823564,
+    "back_edge_stretch_p95": 1.5237615104259803,
+    "arm_shoulder_pull_core_max_m": 0.019481542913774654,
+    "arm_shoulder_pull_core_p95_m": 0.015277713085818972
+  },
+  {
+    "frame": 20.0,
+    "time_s": 0.31666666666666665,
+    "core_back_edge_stretch_max": 1.8097374632775332,
+    "core_back_edge_stretch_p95": 1.433547190473976,
+    "back_edge_stretch_max": 1.8324150452711347,
+    "back_edge_stretch_p95": 1.532450565506681,
+    "arm_shoulder_pull_core_max_m": 0.019855554548754106,
+    "arm_shoulder_pull_core_p95_m": 0.015226158723945003
+  },
+  {
+    "frame": 20.5,
+    "time_s": 0.325,
+    "core_back_edge_stretch_max": 1.8048031102026034,
+    "core_back_edge_stretch_p95": 1.4375670264797011,
+    "back_edge_stretch_max": 1.845278725692532,
+    "back_edge_stretch_p95": 1.5390102244383943,
+    "arm_shoulder_pull_core_max_m": 0.02019760041538236,
+    "arm_shoulder_pull_core_p95_m": 0.015367318456170313
+  },
+  {
+    "frame": 21.0,
+    "time_s": 0.3333333333333333,
+    "core_back_edge_stretch_max": 1.799904408579786,
+    "core_back_edge_stretch_p95": 1.441632364761261,
+    "back_edge_stretch_max": 1.862345451764118,
+    "back_edge_stretch_p95": 1.546239364753762,
+    "arm_shoulder_pull_core_max_m": 0.020539292816352542,
+    "arm_shoulder_pull_core_p95_m": 0.015643972405303515
+  },
+  {
+    "frame": 21.5,
+    "time_s": 0.3416666666666667,
+    "core_back_edge_stretch_max": 1.7940320150104228,
+    "core_back_edge_stretch_p95": 1.4444458041902057,
+    "back_edge_stretch_max": 1.877466033364627,
+    "back_edge_stretch_p95": 1.5548987233752216,
+    "arm_shoulder_pull_core_max_m": 0.0208244782549468,
+    "arm_shoulder_pull_core_p95_m": 0.015884359238756873
+  },
+  {
+    "frame": 22.0,
+    "time_s": 0.35,
+    "core_back_edge_stretch_max": 1.7881562984868868,
+    "core_back_edge_stretch_p95": 1.4473081545631683,
+    "back_edge_stretch_max": 1.8926274740855384,
+    "back_edge_stretch_p95": 1.562486601452059,
+    "arm_shoulder_pull_core_max_m": 0.02110934241048189,
+    "arm_shoulder_pull_core_p95_m": 0.01602753451053774
+  },
+  {
+    "frame": 22.5,
+    "time_s": 0.35833333333333334,
+    "core_back_edge_stretch_max": 1.7803389417452353,
+    "core_back_edge_stretch_p95": 1.442905466474285,
+    "back_edge_stretch_max": 1.9029380415473143,
+    "back_edge_stretch_p95": 1.5696510406888058,
+    "arm_shoulder_pull_core_max_m": 0.02130878730287167,
+    "arm_shoulder_pull_core_p95_m": 0.01591890692312815
+  },
+  {
+    "frame": 23.0,
+    "time_s": 0.36666666666666664,
+    "core_back_edge_stretch_max": 1.772517811584097,
+    "core_back_edge_stretch_p95": 1.4323789030583045,
+    "back_edge_stretch_max": 1.9132700578872153,
+    "back_edge_stretch_p95": 1.5773971395136273,
+    "arm_shoulder_pull_core_max_m": 0.021508455026814376,
+    "arm_shoulder_pull_core_p95_m": 0.01581121243880677
+  },
+  {
+    "frame": 23.5,
+    "time_s": 0.375,
+    "core_back_edge_stretch_max": 1.7615677650853012,
+    "core_back_edge_stretch_p95": 1.4228725503744644,
+    "back_edge_stretch_max": 1.9169210758523396,
+    "back_edge_stretch_p95": 1.5793588077870173,
+    "arm_shoulder_pull_core_max_m": 0.02159503284248788,
+    "arm_shoulder_pull_core_p95_m": 0.01569422486594983
+  },
+  {
+    "frame": 24.0,
+    "time_s": 0.38333333333333336,
+    "core_back_edge_stretch_max": 1.750632983712191,
+    "core_back_edge_stretch_p95": 1.421996063014151,
+    "back_edge_stretch_max": 1.920570143600117,
+    "back_edge_stretch_p95": 1.5788356969416568,
+    "arm_shoulder_pull_core_max_m": 0.021681468583654346,
+    "arm_shoulder_pull_core_p95_m": 0.015756635020280157
+  },
+  {
+    "frame": 24.5,
+    "time_s": 0.39166666666666666,
+    "core_back_edge_stretch_max": 1.735658035245282,
+    "core_back_edge_stretch_p95": 1.4199828856354706,
+    "back_edge_stretch_max": 1.9159767475522367,
+    "back_edge_stretch_p95": 1.5720696230541824,
+    "arm_shoulder_pull_core_max_m": 0.021633691657505037,
+    "arm_shoulder_pull_core_p95_m": 0.015721919786092997
+  },
+  {
+    "frame": 25.0,
+    "time_s": 0.4,
+    "core_back_edge_stretch_max": 1.7207234457540388,
+    "core_back_edge_stretch_p95": 1.417813381673873,
+    "back_edge_stretch_max": 1.911437782660804,
+    "back_edge_stretch_p95": 1.5657719051862604,
+    "arm_shoulder_pull_core_max_m": 0.02158604360623312,
+    "arm_shoulder_pull_core_p95_m": 0.01568758517031771
+  },
+  {
+    "frame": 25.5,
+    "time_s": 0.4083333333333333,
+    "core_back_edge_stretch_max": 1.7015057283931065,
+    "core_back_edge_stretch_p95": 1.4134915637506376,
+    "back_edge_stretch_max": 1.8982330905353604,
+    "back_edge_stretch_p95": 1.5551429468514628,
+    "arm_shoulder_pull_core_max_m": 0.021395233134243193,
+    "arm_shoulder_pull_core_p95_m": 0.015550014856528228
+  },
+  {
+    "frame": 26.0,
+    "time_s": 0.4166666666666667,
+    "core_back_edge_stretch_max": 1.68240021064546,
+    "core_back_edge_stretch_p95": 1.4088020694394292,
+    "back_edge_stretch_max": 1.8851713546486635,
+    "back_edge_stretch_p95": 1.5449380594082704,
+    "arm_shoulder_pull_core_max_m": 0.021204817952278354,
+    "arm_shoulder_pull_core_p95_m": 0.015412890053291753
+  },
+  {
+    "frame": 26.5,
+    "time_s": 0.425,
+    "core_back_edge_stretch_max": 1.6595541174010648,
+    "core_back_edge_stretch_p95": 1.4011221698547365,
+    "back_edge_stretch_max": 1.8643379334169778,
+    "back_edge_stretch_p95": 1.5297195241969432,
+    "arm_shoulder_pull_core_max_m": 0.020877008723093445,
+    "arm_shoulder_pull_core_p95_m": 0.015176990919374906
+  },
+  {
+    "frame": 27.0,
+    "time_s": 0.43333333333333335,
+    "core_back_edge_stretch_max": 1.6369610916256583,
+    "core_back_edge_stretch_p95": 1.3878052024141605,
+    "back_edge_stretch_max": 1.8439719515086006,
+    "back_edge_stretch_p95": 1.5123214022898135,
+    "arm_shoulder_pull_core_max_m": 0.02055059152370053,
+    "arm_shoulder_pull_core_p95_m": 0.014942070790943202
+  },
+  {
+    "frame": 27.5,
+    "time_s": 0.44166666666666665,
+    "core_back_edge_stretch_max": 1.611979866105099,
+    "core_back_edge_stretch_p95": 1.3704362438764426,
+    "back_edge_stretch_max": 1.8178493400391742,
+    "back_edge_stretch_p95": 1.4960322481209845,
+    "arm_shoulder_pull_core_max_m": 0.02010845763894611,
+    "arm_shoulder_pull_core_p95_m": 0.014624195077667577
+  },
+  {
+    "frame": 28.0,
+    "time_s": 0.45,
+    "core_back_edge_stretch_max": 1.5875003379182584,
+    "core_back_edge_stretch_p95": 1.3538295414715662,
+    "back_edge_stretch_max": 1.7926179525128918,
+    "back_edge_stretch_p95": 1.4801566550818972,
+    "arm_shoulder_pull_core_max_m": 0.019668639122035796,
+    "arm_shoulder_pull_core_p95_m": 0.01430819483917614
+  },
+  {
+    "frame": 28.5,
+    "time_s": 0.4583333333333333,
+    "core_back_edge_stretch_max": 1.5625121957951513,
+    "core_back_edge_stretch_p95": 1.334454389356431,
+    "back_edge_stretch_max": 1.7646473572516126,
+    "back_edge_stretch_p95": 1.453779947981178,
+    "arm_shoulder_pull_core_max_m": 0.01914795296534682,
+    "arm_shoulder_pull_core_p95_m": 0.013934469308828206
+  },
+  {
+    "frame": 29.0,
+    "time_s": 0.4666666666666667,
+    "core_back_edge_stretch_max": 1.5405948610271873,
+    "core_back_edge_stretch_p95": 1.3192738142166116,
+    "back_edge_stretch_max": 1.738258673573603,
+    "back_edge_stretch_p95": 1.4372919806740798,
+    "arm_shoulder_pull_core_max_m": 0.01863062189965212,
+    "arm_shoulder_pull_core_p95_m": 0.013563009758890413
+  },
+  {
+    "frame": 29.5,
+    "time_s": 0.475,
+    "core_back_edge_stretch_max": 1.5236940958313343,
+    "core_back_edge_stretch_p95": 1.3085369550167696,
+    "back_edge_stretch_max": 1.7123535189809085,
+    "back_edge_stretch_p95": 1.417503805138749,
+    "arm_shoulder_pull_core_max_m": 0.01807377052556495,
+    "arm_shoulder_pull_core_p95_m": 0.013179920270019612
+  },
+  {
+    "frame": 30.0,
+    "time_s": 0.48333333333333334,
+    "core_back_edge_stretch_max": 1.5077841740562914,
+    "core_back_edge_stretch_p95": 1.2973676075219487,
+    "back_edge_stretch_max": 1.688641813513021,
+    "back_edge_stretch_p95": 1.4017644201861885,
+    "arm_shoulder_pull_core_max_m": 0.017520634380668594,
+    "arm_shoulder_pull_core_p95_m": 0.012801269426985555
+  },
+  {
+    "frame": 30.5,
+    "time_s": 0.49166666666666664,
+    "core_back_edge_stretch_max": 1.4952393696172033,
+    "core_back_edge_stretch_p95": 1.2851600086600274,
+    "back_edge_stretch_max": 1.6680841592170121,
+    "back_edge_stretch_p95": 1.3808635291842468,
+    "arm_shoulder_pull_core_max_m": 0.016967549608741677,
+    "arm_shoulder_pull_core_p95_m": 0.012471771747299439
+  },
+  {
+    "frame": 31.0,
+    "time_s": 0.5,
+    "core_back_edge_stretch_max": 1.4837762092903723,
+    "core_back_edge_stretch_p95": 1.2546171427602937,
+    "back_edge_stretch_max": 1.650179174428362,
+    "back_edge_stretch_p95": 1.359031164948406,
+    "arm_shoulder_pull_core_max_m": 0.01641897542915049,
+    "arm_shoulder_pull_core_p95_m": 0.012196993247267618
+  },
+  {
+    "frame": 31.5,
+    "time_s": 0.5083333333333333,
+    "core_back_edge_stretch_max": 1.4763640557891131,
+    "core_back_edge_stretch_p95": 1.2489284015410957,
+    "back_edge_stretch_max": 1.636821164188749,
+    "back_edge_stretch_p95": 1.340968474496022,
+    "arm_shoulder_pull_core_max_m": 0.015919913929660207,
+    "arm_shoulder_pull_core_p95_m": 0.01187991352243977
+  },
+  {
+    "frame": 32.0,
+    "time_s": 0.5166666666666667,
+    "core_back_edge_stretch_max": 1.470080390082252,
+    "core_back_edge_stretch_p95": 1.236228484443547,
+    "back_edge_stretch_max": 1.6261489095830057,
+    "back_edge_stretch_p95": 1.326432759785073,
+    "arm_shoulder_pull_core_max_m": 0.015461266333840009,
+    "arm_shoulder_pull_core_p95_m": 0.011406865559120906
+  },
+  {
+    "frame": 32.5,
+    "time_s": 0.525,
+    "core_back_edge_stretch_max": 1.4677419139016323,
+    "core_back_edge_stretch_p95": 1.235496139511604,
+    "back_edge_stretch_max": 1.6199820838269323,
+    "back_edge_stretch_p95": 1.3149920790154446,
+    "arm_shoulder_pull_core_max_m": 0.015053952051861422,
+    "arm_shoulder_pull_core_p95_m": 0.011075262144741487
+  },
+  {
+    "frame": 33.0,
+    "time_s": 0.5333333333333333,
+    "core_back_edge_stretch_max": 1.4663968712345234,
+    "core_back_edge_stretch_p95": 1.2351384466669504,
+    "back_edge_stretch_max": 1.616317787418622,
+    "back_edge_stretch_p95": 1.3023758066591529,
+    "arm_shoulder_pull_core_max_m": 0.014653149617508857,
+    "arm_shoulder_pull_core_p95_m": 0.010775181270645267
+  },
+  {
+    "frame": 33.5,
+    "time_s": 0.5416666666666666,
+    "core_back_edge_stretch_max": 1.4682310645138579,
+    "core_back_edge_stretch_p95": 1.2388577030525447,
+    "back_edge_stretch_max": 1.6158285533706276,
+    "back_edge_stretch_p95": 1.2927499921938912,
+    "arm_shoulder_pull_core_max_m": 0.01430597728871634,
+    "arm_shoulder_pull_core_p95_m": 0.010521357180187861
+  },
+  {
+    "frame": 34.0,
+    "time_s": 0.55,
+    "core_back_edge_stretch_max": 1.4709056375247511,
+    "core_back_edge_stretch_p95": 1.2431759872802324,
+    "back_edge_stretch_max": 1.6173596234212886,
+    "back_edge_stretch_p95": 1.289249534551103,
+    "arm_shoulder_pull_core_max_m": 0.013964739415522514,
+    "arm_shoulder_pull_core_p95_m": 0.010351316349249915
+  },
+  {
+    "frame": 34.5,
+    "time_s": 0.5583333333333333,
+    "core_back_edge_stretch_max": 1.475598167746932,
+    "core_back_edge_stretch_p95": 1.2469227687384155,
+    "back_edge_stretch_max": 1.6204092266651784,
+    "back_edge_stretch_p95": 1.2867188517901416,
+    "arm_shoulder_pull_core_max_m": 0.013671970662584179,
+    "arm_shoulder_pull_core_p95_m": 0.010245129112796233
+  },
+  {
+    "frame": 35.0,
+    "time_s": 0.5666666666666667,
+    "core_back_edge_stretch_max": 1.4808926567512972,
+    "core_back_edge_stretch_p95": 1.251532213242224,
+    "back_edge_stretch_max": 1.6249071097631185,
+    "back_edge_stretch_p95": 1.2844951604438544,
+    "arm_shoulder_pull_core_max_m": 0.013384079015496722,
+    "arm_shoulder_pull_core_p95_m": 0.01014641014587993
+  },
+  {
+    "frame": 35.5,
+    "time_s": 0.575,
+    "core_back_edge_stretch_max": 1.4869872148351369,
+    "core_back_edge_stretch_p95": 1.255723328417891,
+    "back_edge_stretch_max": 1.6292520624642706,
+    "back_edge_stretch_p95": 1.279640160209543,
+    "arm_shoulder_pull_core_max_m": 0.01313548833497996,
+    "arm_shoulder_pull_core_p95_m": 0.010077737622185511
+  },
+  {
+    "frame": 36.0,
+    "time_s": 0.5833333333333334,
+    "core_back_edge_stretch_max": 1.4934897084755738,
+    "core_back_edge_stretch_p95": 1.2599255152649553,
+    "back_edge_stretch_max": 1.6345687740671522,
+    "back_edge_stretch_p95": 1.285284593487003,
+    "arm_shoulder_pull_core_max_m": 0.01289073388295845,
+    "arm_shoulder_pull_core_p95_m": 0.010019209098409247
+  },
+  {
+    "frame": 36.5,
+    "time_s": 0.5916666666666667,
+    "core_back_edge_stretch_max": 1.5021222028152788,
+    "core_back_edge_stretch_p95": 1.2634849114172606,
+    "back_edge_stretch_max": 1.6385381585730618,
+    "back_edge_stretch_p95": 1.2805017551458748,
+    "arm_shoulder_pull_core_max_m": 0.012675938722304082,
+    "arm_shoulder_pull_core_p95_m": 0.009978447273028244
+  },
+  {
+    "frame": 37.0,
+    "time_s": 0.6,
+    "core_back_edge_stretch_max": 1.5110027935459514,
+    "core_back_edge_stretch_p95": 1.267090357471275,
+    "back_edge_stretch_max": 1.6430117895241212,
+    "back_edge_stretch_p95": 1.2739535754019593,
+    "arm_shoulder_pull_core_max_m": 0.012463897927901585,
+    "arm_shoulder_pull_core_p95_m": 0.009943601013610645
+  },
+  {
+    "frame": 37.5,
+    "time_s": 0.6083333333333333,
+    "core_back_edge_stretch_max": 1.5178193560412383,
+    "core_back_edge_stretch_p95": 1.2698531729065494,
+    "back_edge_stretch_max": 1.6455967751859693,
+    "back_edge_stretch_p95": 1.273141490429086,
+    "arm_shoulder_pull_core_max_m": 0.012273442700674984,
+    "arm_shoulder_pull_core_p95_m": 0.009916727599027125
+  },
+  {
+    "frame": 38.0,
+    "time_s": 0.6166666666666667,
+    "core_back_edge_stretch_max": 1.5247841935644866,
+    "core_back_edge_stretch_p95": 1.2727448741700045,
+    "back_edge_stretch_max": 1.6483769021449752,
+    "back_edge_stretch_p95": 1.2744944123391484,
+    "arm_shoulder_pull_core_max_m": 0.012084824060482918,
+    "arm_shoulder_pull_core_p95_m": 0.009741048054939997
+  },
+  {
+    "frame": 38.5,
+    "time_s": 0.625,
+    "core_back_edge_stretch_max": 1.529525377201916,
+    "core_back_edge_stretch_p95": 1.2759952152335656,
+    "back_edge_stretch_max": 1.6489993214885363,
+    "back_edge_stretch_p95": 1.2745858717619918,
+    "arm_shoulder_pull_core_max_m": 0.011910857064683927,
+    "arm_shoulder_pull_core_p95_m": 0.009548754992611548
+  },
+  {
+    "frame": 39.0,
+    "time_s": 0.6333333333333333,
+    "core_back_edge_stretch_max": 1.5343116235988874,
+    "core_back_edge_stretch_p95": 1.2792820643713345,
+    "back_edge_stretch_max": 1.6496839097545204,
+    "back_edge_stretch_p95": 1.2767204316231469,
+    "arm_shoulder_pull_core_max_m": 0.011738079587332721,
+    "arm_shoulder_pull_core_p95_m": 0.00935709621329412
+  },
+  {
+    "frame": 39.5,
+    "time_s": 0.6416666666666667,
+    "core_back_edge_stretch_max": 1.5369923482490708,
+    "core_back_edge_stretch_p95": 1.2807493184578833,
+    "back_edge_stretch_max": 1.6481818917507023,
+    "back_edge_stretch_p95": 1.275129334224044,
+    "arm_shoulder_pull_core_max_m": 0.01157384199137584,
+    "arm_shoulder_pull_core_p95_m": 0.009227993430451427
+  },
+  {
+    "frame": 40.0,
+    "time_s": 0.65,
+    "core_back_edge_stretch_max": 1.5397155762011667,
+    "core_back_edge_stretch_p95": 1.2822324519223576,
+    "back_edge_stretch_max": 1.646815960606152,
+    "back_edge_stretch_p95": 1.2742215799126522,
+    "arm_shoulder_pull_core_max_m": 0.011410402977290226,
+    "arm_shoulder_pull_core_p95_m": 0.009243496157897999
+  },
+  {
+    "frame": 40.5,
+    "time_s": 0.6583333333333333,
+    "core_back_edge_stretch_max": 1.540620148879778,
+    "core_back_edge_stretch_p95": 1.2822669614368605,
+    "back_edge_stretch_max": 1.6434688236438189,
+    "back_edge_stretch_p95": 1.2733857012969,
+    "arm_shoulder_pull_core_max_m": 0.011251079681011515,
+    "arm_shoulder_pull_core_p95_m": 0.00924422391615198
+  },
+  {
+    "frame": 41.0,
+    "time_s": 0.6666666666666666,
+    "core_back_edge_stretch_max": 1.5415176650602769,
+    "core_back_edge_stretch_p95": 1.2823312157405624,
+    "back_edge_stretch_max": 1.6401838835040814,
+    "back_edge_stretch_p95": 1.2725687583598781,
+    "arm_shoulder_pull_core_max_m": 0.011092109233871512,
+    "arm_shoulder_pull_core_p95_m": 0.009247776850758652
+  },
+  {
+    "frame": 41.5,
+    "time_s": 0.675,
+    "core_back_edge_stretch_max": 1.541026433315421,
+    "core_back_edge_stretch_p95": 1.281281416476815,
+    "back_edge_stretch_max": 1.6351535323384294,
+    "back_edge_stretch_p95": 1.2701911358694045,
+    "arm_shoulder_pull_core_max_m": 0.010933494773099121,
+    "arm_shoulder_pull_core_p95_m": 0.009231723851783197
+  },
+  {
+    "frame": 42.0,
+    "time_s": 0.6833333333333333,
+    "core_back_edge_stretch_max": 1.5405331572219019,
+    "core_back_edge_stretch_p95": 1.280275163148905,
+    "back_edge_stretch_max": 1.6300707424423864,
+    "back_edge_stretch_p95": 1.2685005849230564,
+    "arm_shoulder_pull_core_max_m": 0.010779437629437772,
+    "arm_shoulder_pull_core_p95_m": 0.009217985155664157
+  },
+  {
+    "frame": 42.5,
+    "time_s": 0.6916666666666667,
+    "core_back_edge_stretch_max": 1.5390143467905326,
+    "core_back_edge_stretch_p95": 1.2785076186766204,
+    "back_edge_stretch_max": 1.6236947466170684,
+    "back_edge_stretch_p95": 1.2675535500589308,
+    "arm_shoulder_pull_core_max_m": 0.010624778797440608,
+    "arm_shoulder_pull_core_p95_m": 0.009183344850392534
+  },
+  {
+    "frame": 43.0,
+    "time_s": 0.7,
+    "core_back_edge_stretch_max": 1.537510548575191,
+    "core_back_edge_stretch_p95": 1.27676035603462,
+    "back_edge_stretch_max": 1.6173688377410138,
+    "back_edge_stretch_p95": 1.2666006760033797,
+    "arm_shoulder_pull_core_max_m": 0.010470563600258838,
+    "arm_shoulder_pull_core_p95_m": 0.009151173847006509
+  },
+  {
+    "frame": 43.5,
+    "time_s": 0.7083333333333334,
+    "core_back_edge_stretch_max": 1.5353416590714186,
+    "core_back_edge_stretch_p95": 1.2745335223356908,
+    "back_edge_stretch_max": 1.609968871010078,
+    "back_edge_stretch_p95": 1.265429872789598,
+    "arm_shoulder_pull_core_max_m": 0.010310216280758757,
+    "arm_shoulder_pull_core_p95_m": 0.00910130758803274
+  },
+  {
+    "frame": 44.0,
+    "time_s": 0.7166666666666667,
+    "core_back_edge_stretch_max": 1.5331853858830318,
+    "core_back_edge_stretch_p95": 1.2732283327427774,
+    "back_edge_stretch_max": 1.602437041452399,
+    "back_edge_stretch_p95": 1.2640641869824798,
+    "arm_shoulder_pull_core_max_m": 0.010150310988319531,
+    "arm_shoulder_pull_core_p95_m": 0.009056225382705667
+  },
+  {
+    "frame": 44.5,
+    "time_s": 0.725,
+    "core_back_edge_stretch_max": 1.5306322512705555,
+    "core_back_edge_stretch_p95": 1.2718693412829698,
+    "back_edge_stretch_max": 1.59405286144554,
+    "back_edge_stretch_p95": 1.2603776686918031,
+    "arm_shoulder_pull_core_max_m": 0.009984422562809892,
+    "arm_shoulder_pull_core_p95_m": 0.008990469619038691
+  },
+  {
+    "frame": 45.0,
+    "time_s": 0.7333333333333333,
+    "core_back_edge_stretch_max": 1.528071889832186,
+    "core_back_edge_stretch_p95": 1.2705359568510055,
+    "back_edge_stretch_max": 1.5858103659938778,
+    "back_edge_stretch_p95": 1.2566938080443437,
+    "arm_shoulder_pull_core_max_m": 0.009819009003090386,
+    "arm_shoulder_pull_core_p95_m": 0.008926931197187921
+  },
+  {
+    "frame": 45.5,
+    "time_s": 0.7416666666666667,
+    "core_back_edge_stretch_max": 1.5252803343718428,
+    "core_back_edge_stretch_p95": 1.2690984794593811,
+    "back_edge_stretch_max": 1.5766581085975846,
+    "back_edge_stretch_p95": 1.252508101838318,
+    "arm_shoulder_pull_core_max_m": 0.009648352883382533,
+    "arm_shoulder_pull_core_p95_m": 0.00883569096516793
+  },
+  {
+    "frame": 46.0,
+    "time_s": 0.75,
+    "core_back_edge_stretch_max": 1.5225006795940612,
+    "core_back_edge_stretch_p95": 1.2676772463357648,
+    "back_edge_stretch_max": 1.5676449956063827,
+    "back_edge_stretch_p95": 1.2484346635484043,
+    "arm_shoulder_pull_core_max_m": 0.009478118778369895,
+    "arm_shoulder_pull_core_p95_m": 0.00872030309363134
+  },
+  {
+    "frame": 46.5,
+    "time_s": 0.7583333333333333,
+    "core_back_edge_stretch_max": 1.5195727690633385,
+    "core_back_edge_stretch_p95": 1.2662089290229086,
+    "back_edge_stretch_max": 1.5580105829680744,
+    "back_edge_stretch_p95": 1.2440576947751962,
+    "arm_shoulder_pull_core_max_m": 0.009303453345278516,
+    "arm_shoulder_pull_core_p95_m": 0.008590717433775465
+  },
+  {
+    "frame": 47.0,
+    "time_s": 0.7666666666666667,
+    "core_back_edge_stretch_max": 1.5166894899132117,
+    "core_back_edge_stretch_p95": 1.2647232668923143,
+    "back_edge_stretch_max": 1.548404367583836,
+    "back_edge_stretch_p95": 1.2403928803970792,
+    "arm_shoulder_pull_core_max_m": 0.009129146757669475,
+    "arm_shoulder_pull_core_p95_m": 0.008436571185973072
+  },
+  {
+    "frame": 47.5,
+    "time_s": 0.775,
+    "core_back_edge_stretch_max": 1.5136534817411664,
+    "core_back_edge_stretch_p95": 1.2632008122571279,
+    "back_edge_stretch_max": 1.538385345085006,
+    "back_edge_stretch_p95": 1.2392535334568338,
+    "arm_shoulder_pull_core_max_m": 0.008951342868631078,
+    "arm_shoulder_pull_core_p95_m": 0.008276834084457119
+  },
+  {
+    "frame": 48.0,
+    "time_s": 0.7833333333333333,
+    "core_back_edge_stretch_max": 1.5106144011349072,
+    "core_back_edge_stretch_p95": 1.261708504614127,
+    "back_edge_stretch_max": 1.5282504915642123,
+    "back_edge_stretch_p95": 1.2370206726665667,
+    "arm_shoulder_pull_core_max_m": 0.008773858804660396,
+    "arm_shoulder_pull_core_p95_m": 0.008117636473512905
+  },
+  {
+    "frame": 48.5,
+    "time_s": 0.7916666666666666,
+    "core_back_edge_stretch_max": 1.5074451813616878,
+    "core_back_edge_stretch_p95": 1.2601246433275564,
+    "back_edge_stretch_max": 1.5177598578754974,
+    "back_edge_stretch_p95": 1.2354831574511203,
+    "arm_shoulder_pull_core_max_m": 0.008593807207013544,
+    "arm_shoulder_pull_core_p95_m": 0.007956111160733617
+  },
+  {
+    "frame": 49.0,
+    "time_s": 0.8,
+    "core_back_edge_stretch_max": 1.5048608830536427,
+    "core_back_edge_stretch_p95": 1.2585155494119584,
+    "back_edge_stretch_max": 1.5073170262778723,
+    "back_edge_stretch_p95": 1.2313689431597084,
+    "arm_shoulder_pull_core_max_m": 0.008414108018186024,
+    "arm_shoulder_pull_core_p95_m": 0.007802120780648639
+  },
+  {
+    "frame": 49.5,
+    "time_s": 0.8083333333333333,
+    "core_back_edge_stretch_max": 1.5021745072116957,
+    "core_back_edge_stretch_p95": 1.2568376101494054,
+    "back_edge_stretch_max": 1.5021745072116957,
+    "back_edge_stretch_p95": 1.2279506083746545,
+    "arm_shoulder_pull_core_max_m": 0.008232760950068998,
+    "arm_shoulder_pull_core_p95_m": 0.007694563333762087
+  },
+  {
+    "frame": 50.0,
+    "time_s": 0.8166666666666667,
+    "core_back_edge_stretch_max": 1.4995046617433456,
+    "core_back_edge_stretch_p95": 1.2551523606851889,
+    "back_edge_stretch_max": 1.4995046617433456,
+    "back_edge_stretch_p95": 1.2229600511427012,
+    "arm_shoulder_pull_core_max_m": 0.008051776988957678,
+    "arm_shoulder_pull_core_p95_m": 0.007534938453392575
+  },
+  {
+    "frame": 50.5,
+    "time_s": 0.825,
+    "core_back_edge_stretch_max": 1.4966271592079032,
+    "core_back_edge_stretch_p95": 1.2533801444670079,
+    "back_edge_stretch_max": 1.4966271592079032,
+    "back_edge_stretch_p95": 1.2175527040670224,
+    "arm_shoulder_pull_core_max_m": 0.007870043748865841,
+    "arm_shoulder_pull_core_p95_m": 0.007356859358095323
+  },
+  {
+    "frame": 51.0,
+    "time_s": 0.8333333333333334,
+    "core_back_edge_stretch_max": 1.493778391356466,
+    "core_back_edge_stretch_p95": 1.2516019317535576,
+    "back_edge_stretch_max": 1.493778391356466,
+    "back_edge_stretch_p95": 1.2139336506647278,
+    "arm_shoulder_pull_core_max_m": 0.007688745649293636,
+    "arm_shoulder_pull_core_p95_m": 0.007234055707500186
+  },
+  {
+    "frame": 51.5,
+    "time_s": 0.8416666666666667,
+    "core_back_edge_stretch_max": 1.490694297995581,
+    "core_back_edge_stretch_p95": 1.24972003306599,
+    "back_edge_stretch_max": 1.490694297995581,
+    "back_edge_stretch_p95": 1.2129204289702178,
+    "arm_shoulder_pull_core_max_m": 0.007507738393733728,
+    "arm_shoulder_pull_core_p95_m": 0.007066055891894936
+  },
+  {
+    "frame": 52.0,
+    "time_s": 0.85,
+    "core_back_edge_stretch_max": 1.48764398039139,
+    "core_back_edge_stretch_p95": 1.2478545121169646,
+    "back_edge_stretch_max": 1.48764398039139,
+    "back_edge_stretch_p95": 1.2096885779356366,
+    "arm_shoulder_pull_core_max_m": 0.007390969197808179,
+    "arm_shoulder_pull_core_p95_m": 0.007017091571988192
+  },
+  {
+    "frame": 52.5,
+    "time_s": 0.8583333333333333,
+    "core_back_edge_stretch_max": 1.4843453453550255,
+    "core_back_edge_stretch_p95": 1.2458566344497974,
+    "back_edge_stretch_max": 1.4843453453550255,
+    "back_edge_stretch_p95": 1.2066908072202176,
+    "arm_shoulder_pull_core_max_m": 0.007426979501569559,
+    "arm_shoulder_pull_core_p95_m": 0.006853145430824354
+  },
+  {
+    "frame": 53.0,
+    "time_s": 0.8666666666666667,
+    "core_back_edge_stretch_max": 1.4810676513496064,
+    "core_back_edge_stretch_p95": 1.243853945058108,
+    "back_edge_stretch_max": 1.4810676513496064,
+    "back_edge_stretch_p95": 1.2006253702104923,
+    "arm_shoulder_pull_core_max_m": 0.00746450526398079,
+    "arm_shoulder_pull_core_p95_m": 0.006657305482478225
+  },
+  {
+    "frame": 53.5,
+    "time_s": 0.875,
+    "core_back_edge_stretch_max": 1.4775523489207172,
+    "core_back_edge_stretch_p95": 1.2417545797891028,
+    "back_edge_stretch_max": 1.4775523489207172,
+    "back_edge_stretch_p95": 1.1937206406333851,
+    "arm_shoulder_pull_core_max_m": 0.007498409364722018,
+    "arm_shoulder_pull_core_p95_m": 0.006455227870951234
+  },
+  {
+    "frame": 54.0,
+    "time_s": 0.8833333333333333,
+    "core_back_edge_stretch_max": 1.4740559129065312,
+    "core_back_edge_stretch_p95": 1.2396466444082919,
+    "back_edge_stretch_max": 1.4740559129065312,
+    "back_edge_stretch_p95": 1.1887843749996865,
+    "arm_shoulder_pull_core_max_m": 0.007534138303104896,
+    "arm_shoulder_pull_core_p95_m": 0.00637757664941466
+  },
+  {
+    "frame": 54.5,
+    "time_s": 0.8916666666666667,
+    "core_back_edge_stretch_max": 1.4703568500494122,
+    "core_back_edge_stretch_p95": 1.2374373592165402,
+    "back_edge_stretch_max": 1.4703568500494122,
+    "back_edge_stretch_p95": 1.1820048962608958,
+    "arm_shoulder_pull_core_max_m": 0.007566433180938771,
+    "arm_shoulder_pull_core_p95_m": 0.006246050668110885
+  },
+  {
+    "frame": 55.0,
+    "time_s": 0.9,
+    "core_back_edge_stretch_max": 1.466673363085286,
+    "core_back_edge_stretch_p95": 1.2352143991603282,
+    "back_edge_stretch_max": 1.466673363085286,
+    "back_edge_stretch_p95": 1.1764398532298568,
+    "arm_shoulder_pull_core_max_m": 0.007600847767263752,
+    "arm_shoulder_pull_core_p95_m": 0.006219902246185836
+  },
+  {
+    "frame": 55.5,
+    "time_s": 0.9083333333333333,
+    "core_back_edge_stretch_max": 1.4628049797549654,
+    "core_back_edge_stretch_p95": 1.2329218308604453,
+    "back_edge_stretch_max": 1.4628049797549654,
+    "back_edge_stretch_p95": 1.170746036822359,
+    "arm_shoulder_pull_core_max_m": 0.007632611599312432,
+    "arm_shoulder_pull_core_p95_m": 0.006100129425217739
+  },
+  {
+    "frame": 56.0,
+    "time_s": 0.9166666666666666,
+    "core_back_edge_stretch_max": 1.4589899660690033,
+    "core_back_edge_stretch_p95": 1.2306314530865863,
+    "back_edge_stretch_max": 1.4589899660690033,
+    "back_edge_stretch_p95": 1.164110542801808,
+    "arm_shoulder_pull_core_max_m": 0.00766629978004683,
+    "arm_shoulder_pull_core_p95_m": 0.0059324199886432475
+  },
+  {
+    "frame": 56.5,
+    "time_s": 0.925,
+    "core_back_edge_stretch_max": 1.4550125241469825,
+    "core_back_edge_stretch_p95": 1.2282565504266352,
+    "back_edge_stretch_max": 1.4550125241469825,
+    "back_edge_stretch_p95": 1.1611672535221855,
+    "arm_shoulder_pull_core_max_m": 0.007698207086859187,
+    "arm_shoulder_pull_core_p95_m": 0.0058548906498625914
+  },
+  {
+    "frame": 57.0,
+    "time_s": 0.9333333333333333,
+    "core_back_edge_stretch_max": 1.451079367133534,
+    "core_back_edge_stretch_p95": 1.2258971265510694,
+    "back_edge_stretch_max": 1.451079367133534,
+    "back_edge_stretch_p95": 1.1558044983393143,
+    "arm_shoulder_pull_core_max_m": 0.007732191544050926,
+    "arm_shoulder_pull_core_p95_m": 0.0059235186827885245
+  },
+  {
+    "frame": 57.5,
+    "time_s": 0.9416666666666667,
+    "core_back_edge_stretch_max": 1.447003495540521,
+    "core_back_edge_stretch_p95": 1.2234869584864934,
+    "back_edge_stretch_max": 1.447003495540521,
+    "back_edge_stretch_p95": 1.1487555553791984,
+    "arm_shoulder_pull_core_max_m": 0.007764563603543444,
+    "arm_shoulder_pull_core_p95_m": 0.005838033767192044
+  },
+  {
+    "frame": 58.0,
+    "time_s": 0.95,
+    "core_back_edge_stretch_max": 1.442983607849932,
+    "core_back_edge_stretch_p95": 1.219606777877981,
+    "back_edge_stretch_max": 1.442983607849932,
+    "back_edge_stretch_p95": 1.143694443060488,
+    "arm_shoulder_pull_core_max_m": 0.007798964999519467,
+    "arm_shoulder_pull_core_p95_m": 0.005770358508433703
+  },
+  {
+    "frame": 58.5,
+    "time_s": 0.9583333333333334,
+    "core_back_edge_stretch_max": 1.4389236802854395,
+    "core_back_edge_stretch_p95": 1.2153561260751662,
+    "back_edge_stretch_max": 1.4389236802854395,
+    "back_edge_stretch_p95": 1.1395271458680887,
+    "arm_shoulder_pull_core_max_m": 0.007832108332994471,
+    "arm_shoulder_pull_core_p95_m": 0.005846949095874769
+  },
+  {
+    "frame": 59.0,
+    "time_s": 0.9666666666666667,
+    "core_back_edge_stretch_max": 1.434863618457682,
+    "core_back_edge_stretch_p95": 1.2114851711040135,
+    "back_edge_stretch_max": 1.434863618457682,
+    "back_edge_stretch_p95": 1.1359392178422791,
+    "arm_shoulder_pull_core_max_m": 0.007867849563587336,
+    "arm_shoulder_pull_core_p95_m": 0.0059256949429107005
+  },
+  {
+    "frame": 59.5,
+    "time_s": 0.975,
+    "core_back_edge_stretch_max": 1.43077166295169,
+    "core_back_edge_stretch_p95": 1.207171357586338,
+    "back_edge_stretch_max": 1.43077166295169,
+    "back_edge_stretch_p95": 1.1316130073915638,
+    "arm_shoulder_pull_core_max_m": 0.007901977567915938,
+    "arm_shoulder_pull_core_p95_m": 0.006005556523701289
+  },
+  {
+    "frame": 60.0,
+    "time_s": 0.9833333333333333,
+    "core_back_edge_stretch_max": 1.426712205599696,
+    "core_back_edge_stretch_p95": 1.203678829270864,
+    "back_edge_stretch_max": 1.426712205599696,
+    "back_edge_stretch_p95": 1.127264899937004,
+    "arm_shoulder_pull_core_max_m": 0.00793848839748602,
+    "arm_shoulder_pull_core_p95_m": 0.006090626366315828
+  },
+  {
+    "frame": 60.5,
+    "time_s": 0.9916666666666667,
+    "core_back_edge_stretch_max": 1.422681172189868,
+    "core_back_edge_stretch_p95": 1.2017939480205058,
+    "back_edge_stretch_max": 1.422681172189868,
+    "back_edge_stretch_p95": 1.1233050834379479,
+    "arm_shoulder_pull_core_max_m": 0.00797391303355555,
+    "arm_shoulder_pull_core_p95_m": 0.0061212038199749364
+  },
+  {
+    "frame": 61.0,
+    "time_s": 1.0,
+    "core_back_edge_stretch_max": 1.4186350122778022,
+    "core_back_edge_stretch_p95": 1.1999413984586789,
+    "back_edge_stretch_max": 1.4186350122778022,
+    "back_edge_stretch_p95": 1.120353961460288,
+    "arm_shoulder_pull_core_max_m": 0.008011574394121772,
+    "arm_shoulder_pull_core_p95_m": 0.006139078605535382
+  },
+  {
+    "frame": 61.5,
+    "time_s": 1.0083333333333333,
+    "core_back_edge_stretch_max": 1.4146582433936854,
+    "core_back_edge_stretch_p95": 1.1980866063297837,
+    "back_edge_stretch_max": 1.4146582433936854,
+    "back_edge_stretch_p95": 1.1182122647689308,
+    "arm_shoulder_pull_core_max_m": 0.00804781783258428,
+    "arm_shoulder_pull_core_p95_m": 0.006158014902869223
+  },
+  {
+    "frame": 62.0,
+    "time_s": 1.0166666666666666,
+    "core_back_edge_stretch_max": 1.410700949732019,
+    "core_back_edge_stretch_p95": 1.1962340636041704,
+    "back_edge_stretch_max": 1.410700949732019,
+    "back_edge_stretch_p95": 1.116248119944503,
+    "arm_shoulder_pull_core_max_m": 0.008086501989690045,
+    "arm_shoulder_pull_core_p95_m": 0.0061816873140080365
+  },
+  {
+    "frame": 62.5,
+    "time_s": 1.025,
+    "core_back_edge_stretch_max": 1.4067922566927475,
+    "core_back_edge_stretch_p95": 1.1944220761291662,
+    "back_edge_stretch_max": 1.4067922566927475,
+    "back_edge_stretch_p95": 1.1162418162040773,
+    "arm_shoulder_pull_core_max_m": 0.008123385190411227,
+    "arm_shoulder_pull_core_p95_m": 0.006205603287997965
+  },
+  {
+    "frame": 63.0,
+    "time_s": 1.0333333333333334,
+    "core_back_edge_stretch_max": 1.4029163006782444,
+    "core_back_edge_stretch_p95": 1.1925737933246172,
+    "back_edge_stretch_max": 1.4029163006782444,
+    "back_edge_stretch_p95": 1.1176350042794936,
+    "arm_shoulder_pull_core_max_m": 0.008162617934711864,
+    "arm_shoulder_pull_core_p95_m": 0.006233973351859395
+  },
+  {
+    "frame": 63.5,
+    "time_s": 1.0416666666666667,
+    "core_back_edge_stretch_max": 1.3990984777014623,
+    "core_back_edge_stretch_p95": 1.190777821276993,
+    "back_edge_stretch_max": 1.3990984777014623,
+    "back_edge_stretch_p95": 1.114013578163745,
+    "arm_shoulder_pull_core_max_m": 0.008200254452428201,
+    "arm_shoulder_pull_core_p95_m": 0.00626233717934349
+  },
+  {
+    "frame": 64.0,
+    "time_s": 1.05,
+    "core_back_edge_stretch_max": 1.395318881356448,
+    "core_back_edge_stretch_p95": 1.188962172950075,
+    "back_edge_stretch_max": 1.395318881356448,
+    "back_edge_stretch_p95": 1.1133145176186392,
+    "arm_shoulder_pull_core_max_m": 0.008239787443900337,
+    "arm_shoulder_pull_core_p95_m": 0.006294409913362507
+  },
+  {
+    "frame": 64.5,
+    "time_s": 1.0583333333333333,
+    "core_back_edge_stretch_max": 1.3916171675143256,
+    "core_back_edge_stretch_p95": 1.187144088536007,
+    "back_edge_stretch_max": 1.3916171675143256,
+    "back_edge_stretch_p95": 1.110362136862694,
+    "arm_shoulder_pull_core_max_m": 0.00827758608812956,
+    "arm_shoulder_pull_core_p95_m": 0.006351038026698948
+  },
+  {
+    "frame": 65.0,
+    "time_s": 1.0666666666666667,
+    "core_back_edge_stretch_max": 1.387931265117902,
+    "core_back_edge_stretch_p95": 1.1853368441786587,
+    "back_edge_stretch_max": 1.387931265117902,
+    "back_edge_stretch_p95": 1.1088093705541244,
+    "arm_shoulder_pull_core_max_m": 0.00831722730339545,
+    "arm_shoulder_pull_core_p95_m": 0.006430382454002262
+  },
+  {
+    "frame": 65.5,
+    "time_s": 1.075,
+    "core_back_edge_stretch_max": 1.3843665569886128,
+    "core_back_edge_stretch_p95": 1.1835591100652245,
+    "back_edge_stretch_max": 1.3843665569886128,
+    "back_edge_stretch_p95": 1.1089490085897789,
+    "arm_shoulder_pull_core_max_m": 0.008354885191865898,
+    "arm_shoulder_pull_core_p95_m": 0.006505048747482586
+  },
+  {
+    "frame": 66.0,
+    "time_s": 1.0833333333333333,
+    "core_back_edge_stretch_max": 1.3807993824300857,
+    "core_back_edge_stretch_p95": 1.1808357141241832,
+    "back_edge_stretch_max": 1.3807993824300857,
+    "back_edge_stretch_p95": 1.1091090962298367,
+    "arm_shoulder_pull_core_max_m": 0.008394291652754921,
+    "arm_shoulder_pull_core_p95_m": 0.006580817253770714
+  },
+  {
+    "frame": 66.5,
+    "time_s": 1.0916666666666666,
+    "core_back_edge_stretch_max": 1.377335729229225,
+    "core_back_edge_stretch_p95": 1.1786252631240588,
+    "back_edge_stretch_max": 1.377335729229225,
+    "back_edge_stretch_p95": 1.108922190547218,
+    "arm_shoulder_pull_core_max_m": 0.00843172497459508,
+    "arm_shoulder_pull_core_p95_m": 0.006651895142378504
+  },
+  {
+    "frame": 67.0,
+    "time_s": 1.1,
+    "core_back_edge_stretch_max": 1.3738892274123442,
+    "core_back_edge_stretch_p95": 1.177292135841256,
+    "back_edge_stretch_max": 1.3738892274123442,
+    "back_edge_stretch_p95": 1.1080334299579055,
+    "arm_shoulder_pull_core_max_m": 0.008470296643582988,
+    "arm_shoulder_pull_core_p95_m": 0.006723523546695424
+  },
+  {
+    "frame": 67.5,
+    "time_s": 1.1083333333333334,
+    "core_back_edge_stretch_max": 1.3705647568984132,
+    "core_back_edge_stretch_p95": 1.176177677116881,
+    "back_edge_stretch_max": 1.3705647568984132,
+    "back_edge_stretch_p95": 1.1064678403035844,
+    "arm_shoulder_pull_core_max_m": 0.008507038049199814,
+    "arm_shoulder_pull_core_p95_m": 0.006790546785693455
+  },
+  {
+    "frame": 68.0,
+    "time_s": 1.1166666666666667,
+    "core_back_edge_stretch_max": 1.3672469352843921,
+    "core_back_edge_stretch_p95": 1.1753993005006402,
+    "back_edge_stretch_max": 1.3672469352843921,
+    "back_edge_stretch_p95": 1.1049303214053763,
+    "arm_shoulder_pull_core_max_m": 0.008544867314280878,
+    "arm_shoulder_pull_core_p95_m": 0.00685715140599508
+  },
+  {
+    "frame": 68.5,
+    "time_s": 1.125,
+    "core_back_edge_stretch_max": 1.3640401627769323,
+    "core_back_edge_stretch_p95": 1.1745694788290684,
+    "back_edge_stretch_max": 1.3640401627769323,
+    "back_edge_stretch_p95": 1.1037067810041694,
+    "arm_shoulder_pull_core_max_m": 0.008580403246648348,
+    "arm_shoulder_pull_core_p95_m": 0.0068873455213696285
+  },
+  {
+    "frame": 69.0,
+    "time_s": 1.1333333333333333,
+    "core_back_edge_stretch_max": 1.3608661835336444,
+    "core_back_edge_stretch_p95": 1.1737034300832223,
+    "back_edge_stretch_max": 1.3608661835336444,
+    "back_edge_stretch_p95": 1.1026307836660663,
+    "arm_shoulder_pull_core_max_m": 0.008617010808418833,
+    "arm_shoulder_pull_core_p95_m": 0.006918363891481934
+  },
+  {
+    "frame": 69.5,
+    "time_s": 1.1416666666666666,
+    "core_back_edge_stretch_max": 1.3577860070081473,
+    "core_back_edge_stretch_p95": 1.1721531732363257,
+    "back_edge_stretch_max": 1.3577860070081473,
+    "back_edge_stretch_p95": 1.1029399457352456,
+    "arm_shoulder_pull_core_max_m": 0.008651509073316063,
+    "arm_shoulder_pull_core_p95_m": 0.006947338613907412
+  },
+  {
+    "frame": 70.0,
+    "time_s": 1.15,
+    "core_back_edge_stretch_max": 1.35473519716918,
+    "core_back_edge_stretch_p95": 1.1702386265370486,
+    "back_edge_stretch_max": 1.35473519716918,
+    "back_edge_stretch_p95": 1.10331944222964,
+    "arm_shoulder_pull_core_max_m": 0.008686738010368532,
+    "arm_shoulder_pull_core_p95_m": 0.00697717505507962
+  },
+  {
+    "frame": 70.5,
+    "time_s": 1.1583333333333334,
+    "core_back_edge_stretch_max": 1.3518225146378464,
+    "core_back_edge_stretch_p95": 1.168457273815887,
+    "back_edge_stretch_max": 1.3518225146378464,
+    "back_edge_stretch_p95": 1.103609187835279,
+    "arm_shoulder_pull_core_max_m": 0.008719867988901559,
+    "arm_shoulder_pull_core_p95_m": 0.007005021687050429
+  },
+  {
+    "frame": 71.0,
+    "time_s": 1.1666666666666667,
+    "core_back_edge_stretch_max": 1.3488934090766451,
+    "core_back_edge_stretch_p95": 1.1670813209342477,
+    "back_edge_stretch_max": 1.3488934090766451,
+    "back_edge_stretch_p95": 1.1039021646235134,
+    "arm_shoulder_pull_core_max_m": 0.008753519047903592,
+    "arm_shoulder_pull_core_p95_m": 0.007033482980442555
+  },
+  {
+    "frame": 71.5,
+    "time_s": 1.175,
+    "core_back_edge_stretch_max": 1.3460990544284102,
+    "core_back_edge_stretch_p95": 1.1655400922180654,
+    "back_edge_stretch_max": 1.3460990544284102,
+    "back_edge_stretch_p95": 1.1046608143202015,
+    "arm_shoulder_pull_core_max_m": 0.008785113478405753,
+    "arm_shoulder_pull_core_p95_m": 0.007060109634786378
+  },
+  {
+    "frame": 72.0,
+    "time_s": 1.1833333333333333,
+    "core_back_edge_stretch_max": 1.3433276496738913,
+    "core_back_edge_stretch_p95": 1.1639687722467733,
+    "back_edge_stretch_max": 1.3433276496738913,
+    "back_edge_stretch_p95": 1.1039677309060945,
+    "arm_shoulder_pull_core_max_m": 0.008817110720468589,
+    "arm_shoulder_pull_core_p95_m": 0.00708707011221563
+  },
+  {
+    "frame": 72.5,
+    "time_s": 1.1916666666666667,
+    "core_back_edge_stretch_max": 1.3406876806332362,
+    "core_back_edge_stretch_p95": 1.1624917618392936,
+    "back_edge_stretch_max": 1.3406876806332362,
+    "back_edge_stretch_p95": 1.1018116791884758,
+    "arm_shoulder_pull_core_max_m": 0.008869387965292314,
+    "arm_shoulder_pull_core_p95_m": 0.007112741502070078
+  },
+  {
+    "frame": 73.0,
+    "time_s": 1.2,
+    "core_back_edge_stretch_max": 1.3380442760643216,
+    "core_back_edge_stretch_p95": 1.1610355514672217,
+    "back_edge_stretch_max": 1.3380442760643216,
+    "back_edge_stretch_p95": 1.1003396089608106,
+    "arm_shoulder_pull_core_max_m": 0.008925365229123515,
+    "arm_shoulder_pull_core_p95_m": 0.007138459891742112
+  },
+  {
+    "frame": 73.5,
+    "time_s": 1.2083333333333333,
+    "core_back_edge_stretch_max": 1.3355509394348837,
+    "core_back_edge_stretch_p95": 1.1596537544501506,
+    "back_edge_stretch_max": 1.3355509394348837,
+    "back_edge_stretch_p95": 1.0998205101821177,
+    "arm_shoulder_pull_core_max_m": 0.008975425349229554,
+    "arm_shoulder_pull_core_p95_m": 0.007162764766113691
+  },
+  {
+    "frame": 74.0,
+    "time_s": 1.2166666666666666,
+    "core_back_edge_stretch_max": 1.3330671639389189,
+    "core_back_edge_stretch_p95": 1.1583010261852456,
+    "back_edge_stretch_max": 1.3330671639389189,
+    "back_edge_stretch_p95": 1.0995416488755452,
+    "arm_shoulder_pull_core_max_m": 0.009025914175060526,
+    "arm_shoulder_pull_core_p95_m": 0.007187289062315029
+  },
+  {
+    "frame": 74.5,
+    "time_s": 1.225,
+    "core_back_edge_stretch_max": 1.3307280839181042,
+    "core_back_edge_stretch_p95": 1.157030981303236,
+    "back_edge_stretch_max": 1.3307280839181042,
+    "back_edge_stretch_p95": 1.0999346588684658,
+    "arm_shoulder_pull_core_max_m": 0.009071073608847059,
+    "arm_shoulder_pull_core_p95_m": 0.007210434204406738
+  },
+  {
+    "frame": 75.0,
+    "time_s": 1.2333333333333334,
+    "core_back_edge_stretch_max": 1.3283962238942688,
+    "core_back_edge_stretch_p95": 1.1563504514909793,
+    "back_edge_stretch_max": 1.3283962238942688,
+    "back_edge_stretch_p95": 1.1006508181407253,
+    "arm_shoulder_pull_core_max_m": 0.00911626648595977,
+    "arm_shoulder_pull_core_p95_m": 0.007233845978452795
+  },
+  {
+    "frame": 75.5,
+    "time_s": 1.2416666666666667,
+    "core_back_edge_stretch_max": 1.3261971876831695,
+    "core_back_edge_stretch_p95": 1.1554372866952032,
+    "back_edge_stretch_max": 1.3261971876831695,
+    "back_edge_stretch_p95": 1.1012075257944889,
+    "arm_shoulder_pull_core_max_m": 0.009156413716564275,
+    "arm_shoulder_pull_core_p95_m": 0.007256036426380875
+  },
+  {
+    "frame": 76.0,
+    "time_s": 1.25,
+    "core_back_edge_stretch_max": 1.3240045431845575,
+    "core_back_edge_stretch_p95": 1.1543834607515582,
+    "back_edge_stretch_max": 1.3240045431845575,
+    "back_edge_stretch_p95": 1.1014610348364,
+    "arm_shoulder_pull_core_max_m": 0.009196636942872797,
+    "arm_shoulder_pull_core_p95_m": 0.007278477743187033
+  },
+  {
+    "frame": 76.5,
+    "time_s": 1.2583333333333333,
+    "core_back_edge_stretch_max": 1.3219810868480137,
+    "core_back_edge_stretch_p95": 1.1534045003893145,
+    "back_edge_stretch_max": 1.3219810868480137,
+    "back_edge_stretch_p95": 1.1013002481594532,
+    "arm_shoulder_pull_core_max_m": 0.009232216372593124,
+    "arm_shoulder_pull_core_p95_m": 0.007300048175142373
+  },
+  {
+    "frame": 77.0,
+    "time_s": 1.2666666666666666,
+    "core_back_edge_stretch_max": 1.3199336262039463,
+    "core_back_edge_stretch_p95": 1.1524334734150694,
+    "back_edge_stretch_max": 1.3199336262039463,
+    "back_edge_stretch_p95": 1.1004179872469688,
+    "arm_shoulder_pull_core_max_m": 0.009267761778008147,
+    "arm_shoulder_pull_core_p95_m": 0.0073215777997368715
+  },
+  {
+    "frame": 77.5,
+    "time_s": 1.275,
+    "core_back_edge_stretch_max": 1.3180585372629596,
+    "core_back_edge_stretch_p95": 1.151531721626377,
+    "back_edge_stretch_max": 1.3180585372629596,
+    "back_edge_stretch_p95": 1.1000078966716653,
+    "arm_shoulder_pull_core_max_m": 0.009299433194233072,
+    "arm_shoulder_pull_core_p95_m": 0.007342596392097513
+  },
+  {
+    "frame": 78.0,
+    "time_s": 1.2833333333333334,
+    "core_back_edge_stretch_max": 1.3161936986830827,
+    "core_back_edge_stretch_p95": 1.150630582252346,
+    "back_edge_stretch_max": 1.3161936986830827,
+    "back_edge_stretch_p95": 1.0996255484291995,
+    "arm_shoulder_pull_core_max_m": 0.009330978579862379,
+    "arm_shoulder_pull_core_p95_m": 0.007363556378431807
+  },
+  {
+    "frame": 78.5,
+    "time_s": 1.2916666666666667,
+    "core_back_edge_stretch_max": 1.3144643200290946,
+    "core_back_edge_stretch_p95": 1.1498011828790906,
+    "back_edge_stretch_max": 1.3144643200290946,
+    "back_edge_stretch_p95": 1.0992384270782631,
+    "arm_shoulder_pull_core_max_m": 0.009358801545780534,
+    "arm_shoulder_pull_core_p95_m": 0.007384259232768994
+  },
+  {
+    "frame": 79.0,
+    "time_s": 1.3,
+    "core_back_edge_stretch_max": 1.3127663544624995,
+    "core_back_edge_stretch_p95": 1.1489644582860992,
+    "back_edge_stretch_max": 1.3127663544624995,
+    "back_edge_stretch_p95": 1.0996289140473672,
+    "arm_shoulder_pull_core_max_m": 0.009386672583289306,
+    "arm_shoulder_pull_core_p95_m": 0.007405036609131147
+  },
+  {
+    "frame": 79.5,
+    "time_s": 1.3083333333333333,
+    "core_back_edge_stretch_max": 1.3111800753605098,
+    "core_back_edge_stretch_p95": 1.1482240958542502,
+    "back_edge_stretch_max": 1.3111800753605098,
+    "back_edge_stretch_p95": 1.1000142477758936,
+    "arm_shoulder_pull_core_max_m": 0.00941132865551868,
+    "arm_shoulder_pull_core_p95_m": 0.00742546490454431
+  },
+  {
+    "frame": 80.0,
+    "time_s": 1.3166666666666667,
+    "core_back_edge_stretch_max": 1.3096074059566973,
+    "core_back_edge_stretch_p95": 1.147486313362148,
+    "back_edge_stretch_max": 1.3096074059566973,
+    "back_edge_stretch_p95": 1.100358421105895,
+    "arm_shoulder_pull_core_max_m": 0.00943641046279884,
+    "arm_shoulder_pull_core_p95_m": 0.0074461854870359456
+  },
+  {
+    "frame": 80.5,
+    "time_s": 1.325,
+    "core_back_edge_stretch_max": 1.3081991564092894,
+    "core_back_edge_stretch_p95": 1.1467889098385051,
+    "back_edge_stretch_max": 1.3081991564092894,
+    "back_edge_stretch_p95": 1.099852625077181,
+    "arm_shoulder_pull_core_max_m": 0.009458798298707207,
+    "arm_shoulder_pull_core_p95_m": 0.007467029810950924
+  },
+  {
+    "frame": 81.0,
+    "time_s": 1.3333333333333333,
+    "core_back_edge_stretch_max": 1.3067933185366416,
+    "core_back_edge_stretch_p95": 1.1461036544248837,
+    "back_edge_stretch_max": 1.3067933185366416,
+    "back_edge_stretch_p95": 1.0993426462836595,
+    "arm_shoulder_pull_core_max_m": 0.009481609122383133,
+    "arm_shoulder_pull_core_p95_m": 0.007488007193878731
+  },
+  {
+    "frame": 81.5,
+    "time_s": 1.3416666666666666,
+    "core_back_edge_stretch_max": 1.3055244898736484,
+    "core_back_edge_stretch_p95": 1.1455041121500038,
+    "back_edge_stretch_max": 1.3055244898736484,
+    "back_edge_stretch_p95": 1.0988657393675345,
+    "arm_shoulder_pull_core_max_m": 0.009502356486827316,
+    "arm_shoulder_pull_core_p95_m": 0.0075094151209415426
+  },
+  {
+    "frame": 82.0,
+    "time_s": 1.35,
+    "core_back_edge_stretch_max": 1.3042684462051801,
+    "core_back_edge_stretch_p95": 1.1448862939531625,
+    "back_edge_stretch_max": 1.3042684462051801,
+    "back_edge_stretch_p95": 1.0983937716367094,
+    "arm_shoulder_pull_core_max_m": 0.009523526746402597,
+    "arm_shoulder_pull_core_p95_m": 0.007530998794505855
+  },
+  {
+    "frame": 82.5,
+    "time_s": 1.3583333333333334,
+    "core_back_edge_stretch_max": 1.303123357489434,
+    "core_back_edge_stretch_p95": 1.1443412425913544,
+    "back_edge_stretch_max": 1.303123357489434,
+    "back_edge_stretch_p95": 1.0979346900764848,
+    "arm_shoulder_pull_core_max_m": 0.009543610630441212,
+    "arm_shoulder_pull_core_p95_m": 0.007553544806097296
+  },
+  {
+    "frame": 83.0,
+    "time_s": 1.3666666666666667,
+    "core_back_edge_stretch_max": 1.3020150355044278,
+    "core_back_edge_stretch_p95": 1.1437736227332589,
+    "back_edge_stretch_max": 1.3020150355044278,
+    "back_edge_stretch_p95": 1.0974968647868009,
+    "arm_shoulder_pull_core_max_m": 0.009564196212277934,
+    "arm_shoulder_pull_core_p95_m": 0.007575952961675628
+  },
+  {
+    "frame": 83.5,
+    "time_s": 1.375,
+    "core_back_edge_stretch_max": 1.3010037840461597,
+    "core_back_edge_stretch_p95": 1.1433077271076124,
+    "back_edge_stretch_max": 1.3010037840461597,
+    "back_edge_stretch_p95": 1.0970534491339414,
+    "arm_shoulder_pull_core_max_m": 0.009584564424841673,
+    "arm_shoulder_pull_core_p95_m": 0.00759976866650217
+  },
+  {
+    "frame": 84.0,
+    "time_s": 1.3833333333333333,
+    "core_back_edge_stretch_max": 1.2999934478726813,
+    "core_back_edge_stretch_p95": 1.1428205021250932,
+    "back_edge_stretch_max": 1.2999934478726813,
+    "back_edge_stretch_p95": 1.096632816357424,
+    "arm_shoulder_pull_core_max_m": 0.009605324533422305,
+    "arm_shoulder_pull_core_p95_m": 0.007623612570222505
+  },
+  {
+    "frame": 84.5,
+    "time_s": 1.3916666666666666,
+    "core_back_edge_stretch_max": 1.299085716439497,
+    "core_back_edge_stretch_p95": 1.142394542459186,
+    "back_edge_stretch_max": 1.299085716439497,
+    "back_edge_stretch_p95": 1.0962367161223354,
+    "arm_shoulder_pull_core_max_m": 0.009627096445320357,
+    "arm_shoulder_pull_core_p95_m": 0.007649084323365181
+  },
+  {
+    "frame": 85.0,
+    "time_s": 1.4,
+    "core_back_edge_stretch_max": 1.298203170647445,
+    "core_back_edge_stretch_p95": 1.1419569200106874,
+    "back_edge_stretch_max": 1.298203170647445,
+    "back_edge_stretch_p95": 1.0958413185778166,
+    "arm_shoulder_pull_core_max_m": 0.009649045211464653,
+    "arm_shoulder_pull_core_p95_m": 0.007674922428991166
+  },
+  {
+    "frame": 85.5,
+    "time_s": 1.4083333333333334,
+    "core_back_edge_stretch_max": 1.2974255570641757,
+    "core_back_edge_stretch_p95": 1.1415634035641884,
+    "back_edge_stretch_max": 1.2974255570641757,
+    "back_edge_stretch_p95": 1.0954767773975143,
+    "arm_shoulder_pull_core_max_m": 0.009673053103228201,
+    "arm_shoulder_pull_core_p95_m": 0.007702747689665202
+  },
+  {
+    "frame": 86.0,
+    "time_s": 1.4166666666666667,
+    "core_back_edge_stretch_max": 1.2966296115427953,
+    "core_back_edge_stretch_p95": 1.1411809922804899,
+    "back_edge_stretch_max": 1.2966296115427953,
+    "back_edge_stretch_p95": 1.0951045248057236,
+    "arm_shoulder_pull_core_max_m": 0.009697256367557095,
+    "arm_shoulder_pull_core_p95_m": 0.007730809894451604
+  },
+  {
+    "frame": 86.5,
+    "time_s": 1.425,
+    "core_back_edge_stretch_max": 1.295935311859775,
+    "core_back_edge_stretch_p95": 1.1408265555205337,
+    "back_edge_stretch_max": 1.295935311859775,
+    "back_edge_stretch_p95": 1.0946933927393345,
+    "arm_shoulder_pull_core_max_m": 0.00972457114072032,
+    "arm_shoulder_pull_core_p95_m": 0.007761036283623985
+  },
+  {
+    "frame": 87.0,
+    "time_s": 1.4333333333333333,
+    "core_back_edge_stretch_max": 1.295205845093482,
+    "core_back_edge_stretch_p95": 1.1404951302533386,
+    "back_edge_stretch_max": 1.295205845093482,
+    "back_edge_stretch_p95": 1.094035347068112,
+    "arm_shoulder_pull_core_max_m": 0.009752048673472472,
+    "arm_shoulder_pull_core_p95_m": 0.007791518002689946
+  },
+  {
+    "frame": 87.5,
+    "time_s": 1.4416666666666667,
+    "core_back_edge_stretch_max": 1.2945944219599723,
+    "core_back_edge_stretch_p95": 1.1402023941231383,
+    "back_edge_stretch_max": 1.2945944219599723,
+    "back_edge_stretch_p95": 1.093375457942614,
+    "arm_shoulder_pull_core_max_m": 0.009781944934381526,
+    "arm_shoulder_pull_core_p95_m": 0.00782403861534496
+  },
+  {
+    "frame": 88.0,
+    "time_s": 1.45,
+    "core_back_edge_stretch_max": 1.2939887913634174,
+    "core_back_edge_stretch_p95": 1.139894497214944,
+    "back_edge_stretch_max": 1.2939887913634174,
+    "back_edge_stretch_p95": 1.0927117855374309,
+    "arm_shoulder_pull_core_max_m": 0.009812456873654634,
+    "arm_shoulder_pull_core_p95_m": 0.007856714791257153
+  },
+  {
+    "frame": 88.5,
+    "time_s": 1.4583333333333333,
+    "core_back_edge_stretch_max": 1.2934709676364524,
+    "core_back_edge_stretch_p95": 1.1396468636369717,
+    "back_edge_stretch_max": 1.2934709676364524,
+    "back_edge_stretch_p95": 1.0920468411028796,
+    "arm_shoulder_pull_core_max_m": 0.009845391585738748,
+    "arm_shoulder_pull_core_p95_m": 0.007891341106194045
+  },
+  {
+    "frame": 89.0,
+    "time_s": 1.4666666666666666,
+    "core_back_edge_stretch_max": 1.2929700019947046,
+    "core_back_edge_stretch_p95": 1.1393874143883116,
+    "back_edge_stretch_max": 1.2929700019947046,
+    "back_edge_stretch_p95": 1.091386346644109,
+    "arm_shoulder_pull_core_max_m": 0.009878541925318255,
+    "arm_shoulder_pull_core_p95_m": 0.007926081181173337
+  },
+  {
+    "frame": 89.5,
+    "time_s": 1.475,
+    "core_back_edge_stretch_max": 1.292550983578413,
+    "core_back_edge_stretch_p95": 1.1391909404191765,
+    "back_edge_stretch_max": 1.292550983578413,
+    "back_edge_stretch_p95": 1.0907193612560362,
+    "arm_shoulder_pull_core_max_m": 0.009914605390095747,
+    "arm_shoulder_pull_core_p95_m": 0.007962650576597537
+  },
+  {
+    "frame": 90.0,
+    "time_s": 1.4833333333333334,
+    "core_back_edge_stretch_max": 1.2921434184196332,
+    "core_back_edge_stretch_p95": 1.1388337198817435,
+    "back_edge_stretch_max": 1.2921434184196332,
+    "back_edge_stretch_p95": 1.0900559742307288,
+    "arm_shoulder_pull_core_max_m": 0.009950925512183966,
+    "arm_shoulder_pull_core_p95_m": 0.00799920269710721
+  },
+  {
+    "frame": 90.5,
+    "time_s": 1.4916666666666667,
+    "core_back_edge_stretch_max": 1.2918401177115164,
+    "core_back_edge_stretch_p95": 1.1385279650620368,
+    "back_edge_stretch_max": 1.2918401177115164,
+    "back_edge_stretch_p95": 1.0894091875363394,
+    "arm_shoulder_pull_core_max_m": 0.009989847821015736,
+    "arm_shoulder_pull_core_p95_m": 0.008037267604960764
+  },
+  {
+    "frame": 91.0,
+    "time_s": 1.5,
+    "core_back_edge_stretch_max": 1.291536108188109,
+    "core_back_edge_stretch_p95": 1.1382161161024174,
+    "back_edge_stretch_max": 1.291536108188109,
+    "back_edge_stretch_p95": 1.0887565054925354,
+    "arm_shoulder_pull_core_max_m": 0.010028528190210165,
+    "arm_shoulder_pull_core_p95_m": 0.00807556163989301
+  },
+  {
+    "frame": 91.5,
+    "time_s": 1.5083333333333333,
+    "core_back_edge_stretch_max": 1.291344055610521,
+    "core_back_edge_stretch_p95": 1.1379645257524709,
+    "back_edge_stretch_max": 1.291344055610521,
+    "back_edge_stretch_p95": 1.0881098816129557,
+    "arm_shoulder_pull_core_max_m": 0.010070031903056538,
+    "arm_shoulder_pull_core_p95_m": 0.008115033626407234
+  },
+  {
+    "frame": 92.0,
+    "time_s": 1.5166666666666666,
+    "core_back_edge_stretch_max": 1.291150658652161,
+    "core_back_edge_stretch_p95": 1.1377188519538726,
+    "back_edge_stretch_max": 1.291150658652161,
+    "back_edge_stretch_p95": 1.0875742695751782,
+    "arm_shoulder_pull_core_max_m": 0.010111387460743084,
+    "arm_shoulder_pull_core_p95_m": 0.008154685186025136
+  },
+  {
+    "frame": 92.5,
+    "time_s": 1.525,
+    "core_back_edge_stretch_max": 1.291056999322684,
+    "core_back_edge_stretch_p95": 1.1375049769892982,
+    "back_edge_stretch_max": 1.291056999322684,
+    "back_edge_stretch_p95": 1.0870349877739942,
+    "arm_shoulder_pull_core_max_m": 0.010155060271165563,
+    "arm_shoulder_pull_core_p95_m": 0.008195225291239198
+  },
+  {
+    "frame": 93.0,
+    "time_s": 1.5333333333333334,
+    "core_back_edge_stretch_max": 1.2909634813898097,
+    "core_back_edge_stretch_p95": 1.1373031494467303,
+    "back_edge_stretch_max": 1.2909634813898097,
+    "back_edge_stretch_p95": 1.0867093819828357,
+    "arm_shoulder_pull_core_max_m": 0.010199196787700782,
+    "arm_shoulder_pull_core_p95_m": 0.008235931337292295
+  },
+  {
+    "frame": 93.5,
+    "time_s": 1.5416666666666667,
+    "core_back_edge_stretch_max": 1.290981253696226,
+    "core_back_edge_stretch_p95": 1.137151139849667,
+    "back_edge_stretch_max": 1.290981253696226,
+    "back_edge_stretch_p95": 1.086584602058087,
+    "arm_shoulder_pull_core_max_m": 0.01024508889166371,
+    "arm_shoulder_pull_core_p95_m": 0.00827741026539524
+  },
+  {
+    "frame": 94.0,
+    "time_s": 1.55,
+    "core_back_edge_stretch_max": 1.290988098893333,
+    "core_back_edge_stretch_p95": 1.136999473774868,
+    "back_edge_stretch_max": 1.290988098893333,
+    "back_edge_stretch_p95": 1.0865395126159876,
+    "arm_shoulder_pull_core_max_m": 0.010291289918558488,
+    "arm_shoulder_pull_core_p95_m": 0.008318999011764253
+  },
+  {
+    "frame": 94.5,
+    "time_s": 1.5583333333333333,
+    "core_back_edge_stretch_max": 1.2911377717040227,
+    "core_back_edge_stretch_p95": 1.1369955979072413,
+    "back_edge_stretch_max": 1.2911377717040227,
+    "back_edge_stretch_p95": 1.0865344394296486,
+    "arm_shoulder_pull_core_max_m": 0.010338862929394371,
+    "arm_shoulder_pull_core_p95_m": 0.008360978770001741
+  },
+  {
+    "frame": 95.0,
+    "time_s": 1.5666666666666667,
+    "core_back_edge_stretch_max": 1.2912752764371924,
+    "core_back_edge_stretch_p95": 1.1370451905651038,
+    "back_edge_stretch_max": 1.2912752764371924,
+    "back_edge_stretch_p95": 1.0865272307786964,
+    "arm_shoulder_pull_core_max_m": 0.010387412905974282,
+    "arm_shoulder_pull_core_p95_m": 0.008402966401917624
+  },
+  {
+    "frame": 95.5,
+    "time_s": 1.575,
+    "core_back_edge_stretch_max": 1.2914934794793365,
+    "core_back_edge_stretch_p95": 1.1371562491822602,
+    "back_edge_stretch_max": 1.2914934794793365,
+    "back_edge_stretch_p95": 1.0865124246797186,
+    "arm_shoulder_pull_core_max_m": 0.010436648474183293,
+    "arm_shoulder_pull_core_p95_m": 0.008445360412308619
+  },
+  {
+    "frame": 96.0,
+    "time_s": 1.5833333333333333,
+    "core_back_edge_stretch_max": 1.29171724391339,
+    "core_back_edge_stretch_p95": 1.1372672106267263,
+    "back_edge_stretch_max": 1.29171724391339,
+    "back_edge_stretch_p95": 1.0865043834832948,
+    "arm_shoulder_pull_core_max_m": 0.010486561376054856,
+    "arm_shoulder_pull_core_p95_m": 0.008488739655530363
+  },
+  {
+    "frame": 96.5,
+    "time_s": 1.5916666666666666,
+    "core_back_edge_stretch_max": 1.2920648352785968,
+    "core_back_edge_stretch_p95": 1.137424327648821,
+    "back_edge_stretch_max": 1.2920648352785968,
+    "back_edge_stretch_p95": 1.0861867596795536,
+    "arm_shoulder_pull_core_max_m": 0.010536991305942807,
+    "arm_shoulder_pull_core_p95_m": 0.008539300051103616
+  },
+  {
+    "frame": 97.0,
+    "time_s": 1.6,
+    "core_back_edge_stretch_max": 1.2924071683751404,
+    "core_back_edge_stretch_p95": 1.1375870238386927,
+    "back_edge_stretch_max": 1.2924071683751404,
+    "back_edge_stretch_p95": 1.085430455008545,
+    "arm_shoulder_pull_core_max_m": 0.010588071862879501,
+    "arm_shoulder_pull_core_p95_m": 0.008590133270811347
+  }
+]

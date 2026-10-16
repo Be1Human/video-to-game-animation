@@ -1,0 +1,164 @@
+{
+  "id": "Walk_Forward_Loop",
+  "before_duration_s": 1.1666666666666667,
+  "after_duration_s": 1.1666666666666667,
+  "same_duration": true,
+  "joints": {
+    "head": {
+      "jerk_rms": {
+        "before": 100.73288011121967,
+        "after": 14.859917404803106
+      },
+      "J_scale_body": {
+        "before": 7273.027472977675,
+        "after": 155.14484299694504
+      },
+      "seam_velocity": {
+        "before": 0.1726614252737314,
+        "after": 0.003486678839195334
+      },
+      "angular_accel_p95_rad_s2": {
+        "before": 9.48267778090188,
+        "after": 4.388358287323733
+      },
+      "seam_angular_velocity_rad_s": {
+        "before": 0.053704206745062405,
+        "after": 0.008536848830234065
+      },
+      "seam_angle_rad": {
+        "before": 0.0,
+        "after": 0.0
+      }
+    },
+    "chest": {
+      "jerk_rms": {
+        "before": 49.75506329124209,
+        "after": 14.039208797841514
+      },
+      "J_scale_body": {
+        "before": 1712.2120575656602,
+        "after": 138.5039933606666
+      },
+      "seam_velocity": {
+        "before": 0.16814333345931973,
+        "after": 0.003299608650541541
+      },
+      "angular_accel_p95_rad_s2": {
+        "before": 21.33583593366386,
+        "after": 4.9228219711058046
+      },
+      "seam_angular_velocity_rad_s": {
+        "before": 0.12086946330243052,
+        "after": 0.009634003862800816
+      },
+      "seam_angle_rad": {
+        "before": 0.0,
+        "after": 0.0
+      }
+    },
+    "hand.L": {
+      "jerk_rms": {
+        "before": 224.82343520237387,
+        "after": 37.58707535471332
+      },
+      "J_scale_body": {
+        "before": 36564.824440360586,
+        "after": 1022.6569437464748
+      },
+      "seam_velocity": {
+        "before": 0.21089050323828026,
+        "after": 0.004471750065147918
+      },
+      "angular_accel_p95_rad_s2": {
+        "before": 43.2502489423188,
+        "after": 20.473766067074607
+      },
+      "seam_angular_velocity_rad_s": {
+        "before": 0.7903284194579915,
+        "after": 0.009745645465788919
+      },
+      "seam_angle_rad": {
+        "before": 0.0,
+        "after": 0.0
+      }
+    },
+    "hand.R": {
+      "jerk_rms": {
+        "before": 237.6301356684741,
+        "after": 41.072964273061594
+      },
+      "J_scale_body": {
+        "before": 40829.861113039144,
+        "after": 1175.6036693749918
+      },
+      "seam_velocity": {
+        "before": 0.5458919885620576,
+        "after": 0.010470497718355704
+      },
+      "angular_accel_p95_rad_s2": {
+        "before": 44.49369033802606,
+        "after": 19.16899561858598
+      },
+      "seam_angular_velocity_rad_s": {
+        "before": 1.8109122882898407,
+        "after": 0.03406687175479608
+      },
+      "seam_angle_rad": {
+        "before": 0.0,
+        "after": 0.0
+      }
+    },
+    "foot.L": {
+      "jerk_rms": {
+        "before": 111.98932855499444,
+        "after": 103.88945180880265
+      },
+      "J_scale_body": {
+        "before": 8525.378557508722,
+        "after": 7186.416125978868
+      },
+      "seam_velocity": {
+        "before": 0.19136723098539296,
+        "after": 0.14678309877497325
+      },
+      "angular_accel_p95_rad_s2": {
+        "before": 11.296657151972106,
+        "after": 54.042109513656825
+      },
+      "seam_angular_velocity_rad_s": {
+        "before": 8.25281680333859e-06,
+        "after": 0.1522520787950108
+      },
+      "seam_angle_rad": {
+        "before": 0.0,
+        "after": 0.0
+      }
+    },
+    "foot.R": {
+      "jerk_rms": {
+        "before": 92.60808696798196,
+        "after": 105.44480942209887
+      },
+      "J_scale_body": {
+        "before": 6026.202101242957,
+        "after": 7941.237542250832
+      },
+      "seam_velocity": {
+        "before": 0.6666793649198104,
+        "after": 0.03269810335116728
+      },
+      "angular_accel_p95_rad_s2": {
+        "before": 7.112374404501283,
+        "after": 52.71637448581154
+      },
+      "seam_angular_velocity_rad_s": {
+        "before": 0.37383572859108644,
+        "after": 0.21303946658344577
+      },
+      "seam_angle_rad": {
+        "before": 0.0,
+        "after": 0.0
+      }
+    }
+  }
+}

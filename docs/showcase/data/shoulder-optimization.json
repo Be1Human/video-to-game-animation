@@ -1,0 +1,75 @@
+{
+  "source": "CH-SKIN-10",
+  "dqs_blender_max_error_m": 5.647593990940861e-07,
+  "gradient_max_error": 3.223580578961804e-11,
+  "vertices_optimized": 4362,
+  "poses": 63,
+  "iterations": 200,
+  "converged": false,
+  "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+  "loss": 0.00016539283651735963,
+  "history": [
+    {
+      "call": 20,
+      "loss": 0.00039935254236141474,
+      "max_edge_ratio": 3.2085886805093082,
+      "p99": 1.3693584179799758
+    },
+    {
+      "call": 40,
+      "loss": 0.0002896200978279677,
+      "max_edge_ratio": 2.4560407874443135,
+      "p99": 1.3623500218198026
+    },
+    {
+      "call": 60,
+      "loss": 0.00024797621803266827,
+      "max_edge_ratio": 2.2773901428816212,
+      "p99": 1.3598653433565773
+    },
+    {
+      "call": 80,
+      "loss": 0.00022948072809302506,
+      "max_edge_ratio": 2.281362701709385,
+      "p99": 1.3568084813224983
+    },
+    {
+      "call": 100,
+      "loss": 0.00021673019016668995,
+      "max_edge_ratio": 2.246649087798449,
+      "p99": 1.353504979424781
+    },
+    {
+      "call": 120,
+      "loss": 0.0002057401692140531,
+      "max_edge_ratio": 2.109134252017362,
+      "p99": 1.353715551525686
+    },
+    {
+      "call": 140,
+      "loss": 0.0001945650895122261,
+      "max_edge_ratio": 2.079846097547822,
+      "p99": 1.352653319253493
+    },
+    {
+      "call": 160,
+      "loss": 0.00017983150320743707,
+      "max_edge_ratio": 2.0667741871363186,
+      "p99": 1.350519780429337
+    },
+    {
+      "call": 180,
+      "loss": 0.00017258991582109004,
+      "max_edge_ratio": 2.0337725665649455,
+      "p99": 1.3497086385627768
+    },
+    {
+      "call": 200,
+      "loss": 0.00016902065959313798,
+      "max_edge_ratio": 2.0114543735592187,
+      "p99": 1.3488526071287121
+    }
+  ],
+  "policy": "static weights only; core back fixed; rest geometry and all authored action curves preserved; full Blender verification required",
+  "provenance_note": "Shoulder/armhole revision (CH-SKIN-11); source field CH-SKIN-10 is retained verbatim from the upstream optimization log."
+}
