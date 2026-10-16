@@ -72,7 +72,7 @@ flowchart LR
 
 [原速 MP4](docs/showcase/back-binding-before-after.mp4)
 
-固定根和躯干，禁用肩臂局部旋转，比较实际求值网格的位置差：$d_v(t)=\|x_{full,v}(t)-x_{disabled,v}(t)\|$。在预先选定的 **122 个中央背部顶点**中，最大肩臂贡献从 **23.785 mm → 5.500 mm**；这测量运动链的影响，不把冻结手臂当作自然表演。
+固定根和躯干，禁用肩臂局部旋转，比较实际求值网格的位置差： $d_v(t)=\lVert x_{full,v}(t)-x_{disabled,v}(t)\rVert$ 。在预先选定的 **122 个中央背部顶点**中，最大肩臂贡献从 **23.785 mm → 5.500 mm**；这测量运动链的影响，不把冻结手臂当作自然表演。
 
 ![实际肩臂牵拉位移时间曲线](docs/showcase/back-contribution.png)
 
@@ -82,13 +82,15 @@ flowchart LR
 
 固定动作，只优化静态蒙皮权重 $W$。目标由三项组成：
 
-$$
-E(W)=\sum_{p,e}\rho(r_e(W;p);l_e,u_e)
-+\lambda_{keep}\sum_{p,v}\|x_v(W;p)-x_{baseline,v}(p)\|^2
-+\lambda_{graph}\sum_{(i,j)}\|W_i-W_j\|^2
-$$
+```math
+\begin{aligned}
+E(W)={}&\sum_{p,e}\rho(r_e(W;p);l_e,u_e)\\
+&+\lambda_{keep}\sum_{p,v}\lVert x_v(W;p)-x_{baseline,v}(p)\rVert^2\\
+&+\lambda_{graph}\sum_{(i,j)}\lVert W_i-W_j\rVert^2
+\end{aligned}
+```
 
-第一项限制各姿势的边长比，第二项保留原形，第三项减少相邻表面的权重突变；$l_e,u_e$ 是项目选定的容许范围。约束 $W_{vj}\ge0$、$\sum_jW_{vj}=1$，保护区域不变。这是项目的拟合目标，不是人体自然度定律。
+第一项限制各姿势的边长比，第二项保留原形，第三项减少相邻表面的权重突变； $l_e,u_e$ 是项目选定的容许范围。约束 $W_{vj}\ge0$、 $\sum_jW_{vj}=1$ ，保护区域不变。这是项目的拟合目标，不是人体自然度定律。
 
 对 **63 个姿势、4,362 个顶点**拟合，先验证 DQS 自写求值器与 Blender 的最大位置差为 **5.65×10⁻⁷ m**，再检查梯度。求解到 200 次迭代上限，**未宣称收敛或全局最优**；全时间轴与独立试姿另做验证。
 
