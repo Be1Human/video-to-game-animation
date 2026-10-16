@@ -2,20 +2,11 @@
 
 **从视频参考到可审阅的游戏角色动画。** 一套 Codex skill，沉淀了单目姿态估计、动作拆分、重定向、相位协调、数学诊断、蒙皮修复和 Blender 验证的实际迭代经验。
 
+![视频到游戏动画六步总览：输入审查、姿态捕捉、拆分与重定向、协调动作、Blender 全身复验、导出与游戏核验](docs/overview/pipeline.png)
+
 本仓库已将 `video-to-game-animation` 与 `animation-quality-review` 合并为一个可安装技能：既支持完整制作，也支持对现有动画直接评审。质量评估入口见 [quality-review.md](references/quality-review.md)，完整数学边界见 [metrics.md](references/metrics.md) 和 [locomotion-framework.md](references/locomotion-framework.md)。
 
 它会指导代理完成工作，并提供可运行的小工具；不是一个对任意模型都能一键动捕、绑定和修成自然动作的黑盒程序。
-
-```mermaid
-flowchart LR
-    A[视频与角色审查] --> B[姿态估计与置信]
-    B --> C[动作单元与骨架标定]
-    C --> D[SO3 · 相位 · 接触 · 融合]
-    D --> E[真实网格与蒙皮诊断]
-    E --> F[逐动作 Blender 验证]
-    F --> G[候选文件与审阅证据]
-    F -->|发现问题| D
-```
 
 ## 实际效果与过程
 
@@ -139,6 +130,12 @@ python scripts/plot_showcase.py --data docs/showcase/data --output docs/showcase
 - 将不同来源动作统一到同一目标骨架比较，区分动作曲线、蒙皮和融合权重。
 
 阅读 [SKILL.md](SKILL.md)；工具接口见 [数据契约](references/data-contract.md)，数学见 [动作框架](references/motion-math.md)，失败经验见 [案例](references/case-study.md)。
+
+## 如何定位问题
+
+![三层质量评审总览：动作曲线与融合、网格与蒙皮权重、导出与引擎运行；定位问题后固定其他变量，同姿势对照，再复验全部动作与全身](docs/overview/quality-review.png)
+
+两张总览图是**方法示意**；上方动画与曲线是项目实测。详细判断方法见 [质量评审](references/quality-review.md)，插图生成源见 [draw_overview.py](scripts/draw_overview.py)（Pillow，需中文字体）。
 
 ## 安装和使用
 
