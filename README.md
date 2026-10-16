@@ -1,5 +1,7 @@
 # Video to Game Animation
 
+**简体中文** | [English](README.en.md)
+
 **从视频参考到可审阅的游戏角色动画。** 一套 Codex skill，沉淀了单目姿态估计、动作拆分、重定向、相位协调、数学诊断、蒙皮修复和 Blender 验证的实际迭代经验。
 
 ![视频到游戏动画六步总览：输入审查、姿态捕捉、拆分与重定向、协调动作、Blender 全身复验、导出与游戏核验](docs/overview/pipeline.png)

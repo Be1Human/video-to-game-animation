@@ -2,6 +2,7 @@
 """Draw the README's conceptual overview images (Pillow; no project media).
 
 python scripts/draw_overview.py --font /path/to/CJK-font.ttf
+python scripts/draw_overview.py --lang en --font /path/to/Latin-font.ttf
 """
 from __future__ import annotations
 
@@ -20,10 +21,72 @@ ORANGE = '#c77a20'
 LINE = '#dbe4ee'
 BG = '#f3f6fa'
 FONT = None
+LANG = 'zh'
+EN = {'旋转 · 相位 · 足部接触': 'Rotation / phase / foot contact',
+ '从视频参考，到游戏里的单元动作': 'From video reference to game-ready clips',
+ '制作与质量评审合在一条流程里；已有动画核对输入后，可从第 04 步进入。': 'One workflow for production and review. For existing clips, '
+                                         'inspect inputs, then start at step 04.',
+ '输入审查': 'Inspect inputs',
+ '视频、角色、现有骨架': 'Video, character and existing rig',
+ '核对许可、单位、骨轴与 rest 姿态': 'Check license, units, axes and rest pose',
+ '姿态捕捉': 'Capture poses',
+ '逐帧关键点 + 时间戳 + 置信度': 'Landmarks, timestamps and confidence',
+ '遮挡、换人、深度不确定性要保留': 'Keep occlusion, identity and depth limits',
+ '拆分与重定向': 'Segment and retarget',
+ '走 / 跑 / 转向 / 起停 → 独立动作': 'Walk / run / turn / start / stop clips',
+ '同一骨架标定，再烘焙动作曲线': 'Calibrate one target rig, then bake',
+ '协调动作': 'Coordinate motion',
+ 'SO(3) 旋转拟合与启停融合': 'SO(3) rotation fit and start/stop blends',
+ '统一相位，复查接触和身体朝向': 'Align phase; check contact and heading',
+ 'Blender 全身复验': 'Blender body checks',
+ '同动作查肩、袖窿、背与四肢': 'Inspect shoulders, sleeves, back, limbs',
+ '固定曲线修权重，逐动作多视角看': 'Fix weights with curves held constant',
+ '导出与游戏核验': 'Verify game export',
+ '候选文件 + 指标 + 修前修后证据': 'Candidates, metrics and comparisons',
+ '复核骨架路径、形变、切换与实跑': 'Check rig paths, skinning and playback',
+ '方法概览 · 发现问题就返回对应环节 · 原件与每轮审阅证据持续保留': 'METHOD OVERVIEW / Revisit the relevant step when issues appear. Keep '
+                                       'originals and every review round.',
+ '先定位哪一层，再修；最后回到全身看': 'Locate the layer, repair it, then recheck the whole body',
+ '分清动作、蒙皮与引擎三个层面，避免修好后背却把肩袖或脚步弄坏。': 'Separate motion, skinning and engine issues. Check that a back repair '
+                                    'does not damage shoulders or feet.',
+ '动作曲线与融合': 'Motion and blending',
+ '网格与蒙皮权重': 'Mesh and skinning',
+ '导出与引擎运行': 'Export and engine',
+ '骨骼怎么动？': 'How do the bones move?',
+ '轨迹、角速度 / 角加速度、jerk': 'Paths, angular derivatives and jerk',
+ '相位、支撑脚滑移、启停连续性': 'Phase, foot sliding, start/stop continuity',
+ '同骨架、同速度、同相位对照': 'Compare the same rig, speed and phase',
+ '骨骼怎样带动网格？': 'How do bones drive the mesh?',
+ '锁定动作曲线，比较真实网格': 'Hold curves fixed; compare real meshes',
+ '肩袖拉伸、背部牵拉、附件贴合': 'Sleeve stretch, back pull, attachments',
+ '局部修改后，检查全身与独立试姿': 'Check the whole body and stress poses',
+ '引擎里是否仍然一致？': 'Does the engine match?',
+ '核对单位、朝向与动画轨道': 'Check units, facing and animation tracks',
+ '比较 Blender 与引擎求值形变': 'Compare Blender and engine skinning',
+ '用实际角色检查动作切换与实跑': 'Test transitions on the actual character',
+ '游戏': 'Game',
+ '每次修改都走一遍': 'After every revision',
+ '定位问题层': 'Locate the layer',
+ '只改对应变量': 'Isolate the variable',
+ '同姿势修前 / 修后': 'Compare the same pose',
+ '全动作 + 全身复验': 'Recheck all clips and body',
+ '判断依据：原速多视角 + 接触与形变 + 实测曲线；保留改善，也记录退化。': 'EVIDENCE / Original speed, multiple views, contact, deformation '
+                                          'and curves. Record gains and regressions.'}
 
 
-def label(d, xy, value, size=28, color=INK):
-    d.text(xy, value, font=ImageFont.truetype(FONT, size), fill=color, anchor='lt')
+def label(d, xy, value, size=28, color=INK, max_width=None):
+    if LANG == 'en':
+        value = EN.get(value, value)
+        if any('\u4e00' <= c <= '\u9fff' for c in value):
+            raise ValueError(f'Missing English diagram label: {value}')
+    font = ImageFont.truetype(FONT, size)
+    if LANG == 'en' and max_width is not None:
+        while font.getlength(value) > max_width and size > 18:
+            size -= 1
+            font = ImageFont.truetype(FONT, size)
+        if font.getlength(value) > max_width:
+            raise ValueError(f'Diagram label overflows its card: {value}')
+    d.text(xy, value, font=font, fill=color, anchor='lt')
 
 
 def box(d, xy, fill='white', outline=LINE, radius=24, width=2):
@@ -125,8 +188,8 @@ def icon(d, kind, x, y):
 
 def header(d, kicker, title, subtitle):
     label(d,(56,34),kicker,22,BLUE)
-    label(d,(56,75),title,46)
-    label(d,(56,137),subtitle,25,MUTED)
+    label(d,(56,75),title,46,max_width=1488)
+    label(d,(56,137),subtitle,25,MUTED,max_width=1488)
 
 
 def pipeline(out):
@@ -145,14 +208,14 @@ def pipeline(out):
         box(d,(x,y,x+464,y+395))
         box(d,(x+24,y+24,x+82,y+68),'#eaf1fe',None,10)
         label(d,(x+35,y+31),num,28,BLUE)
-        label(d,(x+103,y+32),title,31)
+        label(d,(x+103,y+32),title,31,max_width=337)
         icon(d,kind,x+48,y+110)
         for j,line in enumerate(lines):
-            label(d,(x+24,y+294+j*43),line,23,INK if j==0 else MUTED)
+            label(d,(x+24,y+294+j*43),line,23,INK if j==0 else MUTED,max_width=416)
         if col<2:
             arrow(d,(x+475,y+196),(x+502,y+196))
     label(d,(56,1080),'方法概览 · 发现问题就返回对应环节 · 原件与每轮审阅证据持续保留',25,MUTED)
-    im.save(out/'pipeline.png',optimize=True)
+    im.save(out/('pipeline.en.png' if LANG == 'en' else 'pipeline.png'),optimize=True)
 
 
 def review(out):
@@ -169,7 +232,7 @@ def review(out):
         x=56+i*512;y=206;c=colors[i]
         box(d,(x,y,x+464,y+467))
         box(d,(x+24,y+24,x+440,y+80),c,None,10)
-        label(d,(x+42,y+36),titles[i],30,'white')
+        label(d,(x+42,y+36),titles[i],30,'white',max_width=380)
         if i==0:
             waveform(d,(x+44,y+112,165,86),ORANGE,True)
             arrow(d,(x+228,y+159),(x+258,y+159),BLUE,3)
@@ -186,32 +249,38 @@ def review(out):
             label(d,(x+61,y+228),'Blender',23,MUTED)
             label(d,(x+322,y+228),'游戏',23,MUTED)
         for j,line in enumerate(content[i]):
-            label(d,(x+24,y+286+j*40),line,27 if j==0 else 23,c if j==0 else INK)
+            label(d,(x+24,y+286+j*40),line,27 if j==0 else 23,c if j==0 else INK,max_width=416)
     label(d,(56,712),'每次修改都走一遍',30)
     loop=['定位问题层','只改对应变量','同姿势修前 / 修后','全动作 + 全身复验']
     for i,txt in enumerate(loop):
         x=56+i*384
         box(d,(x,769,x+344,849),'#eaf1fe',None,14)
-        label(d,(x+22,794),txt,27,BLUE)
+        label(d,(x+22,794),txt,27,BLUE,max_width=300)
         if i<3:
             arrow(d,(x+352,809),(x+377,809),BLUE,4)
     box(d,(56,889,1544,966),'#e7efed',None,18)
     label(d,(81,911),'判断依据：原速多视角 + 接触与形变 + 实测曲线；保留改善，也记录退化。',28,TEAL)
-    im.save(out/'quality-review.png',optimize=True)
+    im.save(out/('quality-review.en.png' if LANG == 'en' else 'quality-review.png'),optimize=True)
 
 
 def main():
-    global FONT
+    global FONT, LANG
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--font',type=Path,help='CJK TrueType/OpenType font; not bundled')
+    parser.add_argument('--lang',choices=['zh','en'],default='zh',help='Diagram language (default: zh)')
+    parser.add_argument('--font',type=Path,help='TrueType/OpenType font; Chinese requires CJK support; not bundled')
     parser.add_argument('--output',type=Path,default=Path(__file__).resolve().parents[1]/'docs/overview')
     args=parser.parse_args()
+    LANG=args.lang
     candidates=[args.font,Path('/System/Library/Fonts/PingFang.ttc'),
                 Path('/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'),
                 Path('C:/Windows/Fonts/msyh.ttc')]
+    if LANG == 'en' and not args.font:
+        candidates=[Path('/System/Library/Fonts/Supplemental/Arial.ttf'),
+                    Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'),
+                    Path('C:/Windows/Fonts/arial.ttf')] + candidates
     FONT=next((str(p) for p in candidates if p and p.is_file()),None)
     if not FONT:
-        parser.error('Provide --font with a Chinese-capable font.')
+        parser.error('Provide --font; Chinese diagrams require a CJK-capable font.')
     args.output.mkdir(parents=True,exist_ok=True)
     pipeline(args.output);review(args.output)
     print(f'Wrote 2 conceptual diagrams to {args.output}')
