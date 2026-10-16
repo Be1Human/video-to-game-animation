@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频到游戏角色动画"
+  short_description: "从视频动作估计到游戏单元动作，用数学诊断与 Blender 验证优化动作和蒙皮"
+  default_prompt: "使用 $video-to-game-animation 将参考视频拆为可用角色动作，并检查重定向、流畅性、接触与蒙皮形变。"

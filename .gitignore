@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+demo-output/
+*.blend
+*.blend1
+*.fbx
+*.glb
+*.mp4
+*.task
+*.npz
+.env
